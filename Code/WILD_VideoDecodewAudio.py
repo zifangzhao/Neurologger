@@ -34,7 +34,7 @@ def save_binary_audio_to_wav(audio_file, sample_rate, output_path):
     audio_array = (audio_array - 32768).astype(np.int16)  # Convert to signed int16
     print(f"Audio file sps: {audio_array.shape[0]}, fs: {sample_rate},duration: {audio_array.shape[0]/sample_rate}")
     #filtering
-    # Design a Butterworth high-pass filter
+    # Design a Butterworth high-pass filter(DC-removal)
     nyquist = 0.5 * sample_rate
     normal_cutoff = 1 / nyquist
     b, a = butter(N=2, Wn=normal_cutoff, btype='high', analog=False)
