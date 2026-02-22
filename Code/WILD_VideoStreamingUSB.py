@@ -9,7 +9,28 @@ from moviepy import VideoFileClip, AudioFileClip, CompositeVideoClip
 import lameenc
 import matplotlib.pyplot as plt
 import time
+import ctypes
+import sys
+import os
 
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+
+if not is_admin():
+    # Relaunch as admin
+    ctypes.windll.shell32.ShellExecuteW(
+        None,
+        "runas",
+        sys.executable,
+        " ".join(sys.argv),
+        None,
+        1
+    )
+    sys.exit(0)
+    
 def list_windows_disks():
     print("Available drives (physical):")
     for i in range(10):
