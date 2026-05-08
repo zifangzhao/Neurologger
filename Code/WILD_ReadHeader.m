@@ -56,6 +56,7 @@ if(sysParam.data_version==0)
     sysParam.Vbatt_threshold = fread(fid, 1, 'uint16');   % 2 bytes
     sysParam.unassigned_16 = fread(fid, 1, 'uint16');     % 2 bytes
     sysParam.unassigned = fread(fid, 36, 'uint32');       % 36*4 bytes
+    sysParam.sampling_rate =[0,0,0,0];
 else
     sysParam.fs = fread(fid, 1, 'uint32');                % 4 bytes
     sysParam.AUX_mode = fread(fid, 1, 'uint32');          % 4 bytes
