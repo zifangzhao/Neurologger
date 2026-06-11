@@ -1,0 +1,5 @@
+site/
+.codex-*/
+.codex-*.log
+.codex-*.png
+.codex-*.py
