@@ -19,7 +19,7 @@ For each public dataset or protocol, record:
 
 - Goal.
 - Hardware revision.
-- Firmware binary.
+- Release image.
 - Software version.
 - Required accessories.
 - Step-by-step protocol.

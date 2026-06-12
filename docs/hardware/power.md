@@ -20,7 +20,7 @@ microSD choice can affect power consumption and reliability. Format cards with W
 
 Runtime depends on sampling rate, active modalities, preview state, stimulation use, microSD card model, battery capacity, and ambient conditions. When reporting a WILD recording mode, include:
 
-- Firmware version.
+- Release image.
 - SD card model and format state.
 - Battery model and capacity.
 - Sampling rate and enabled modalities.

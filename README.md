@@ -7,7 +7,7 @@
 The documentation portal is built with MkDocs Material and is maintained through Markdown files in [`docs/`](docs/).
 
 - [Getting Started](docs/getting-started/index.md)
-- [Hardware and Firmware](docs/hardware/index.md)
+- [Hardware](docs/hardware/index.md)
 - [Software](docs/software/index.md)
 - [Analysis](docs/analysis/index.md)
 - [Community](docs/contributing.md)
@@ -16,9 +16,9 @@ The documentation portal is built with MkDocs Material and is maintained through
 
 - Local microSD electrophysiology recording with BLE-based control, synchronization, status, and low-bandwidth preview
 - Closed-loop stimulation through embedded DSP and curated TinyML pipelines
-- Current open-source 64-channel workflows, with Neuropixels-compatible and active-probe variants documented separately as development targets
+- Current open-source 64-channel workflows, with Neuropixels-compatible and active-probe variants documented separately as research targets
 - IMU, ultrasonic audio, camera, and digital event recording
-- TinyML inference support on MCU firmware, using pre-compiled and timing-reviewed models
+- TinyML inference support through validated release-integrated models
 - Long-term recording and multi-animal experiment workflows
 
 ## Repository Layout
@@ -26,7 +26,7 @@ The documentation portal is built with MkDocs Material and is maintained through
 | Path | Purpose |
 | --- | --- |
 | [`docs/`](docs/) | MkDocs documentation source |
-| [`Firmware/`](Firmware/) | Released firmware images |
+| [Latest GitHub release](https://github.com/zifangzhao/Neurologger/releases/latest) | Prebuilt device release images |
 | [`Software/`](Software/) | WILD_console installers |
 | [`Code/`](Code/) | MATLAB and Python analysis scripts |
 | [`PCB/`](PCB/) | PCB fabrication and assembly files |

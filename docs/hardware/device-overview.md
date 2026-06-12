@@ -22,7 +22,7 @@ flowchart TB
 ## Current Public Scope
 
 - The current open-source WILD release is the 64-channel local-storage neurologger workflow.
-- Higher-performance Neuropixels-compatible and active-SPI-probe workflows are separate development targets.
+- Higher-performance Neuropixels-compatible and active-SPI-probe workflows are separate research and variant targets.
 - Multi-device experiments use explicit synchronization workflows rather than BLE timestamps alone.
 - Mass is configuration-dependent; device-only mass, probe or module mass, battery mass, and complete implant mass should be reported separately.
 

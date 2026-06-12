@@ -13,7 +13,7 @@ The current public software surface should be described conservatively. WILD_con
 | Camera/audio decoding | Python scripts | Decode `misc.dat` and related audio data into reviewable media outputs. |
 | Batch processing | Python and MATLAB scripts | Process folders of recordings after SD export. |
 | GPIO logging | Python utility | Log serial/GPIO event data during validation or synchronization tests. |
-| Firmware and model validation | Firmware-specific workflow | Record firmware image, AI model identity, and tool version for reproducibility. |
+| Release and model tracking | Release metadata workflow | Record release image, AI model identity, and tool version for reproducibility. |
 
 ## CLI-Style Tool Operations
 
@@ -25,7 +25,7 @@ The following operations should be treated as the current API surface until a st
 - Process IMU channels into calibrated signals.
 - Batch-process recording folders.
 - Log GPIO or serial synchronization events.
-- Preserve software, firmware, and model versions in experiment notes.
+- Preserve software, release-image, and model versions in experiment notes.
 
 ## Tool Metadata
 

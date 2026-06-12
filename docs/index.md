@@ -61,7 +61,7 @@ hide:
     </div>
     <div class="wild-card">
       <h3>TinyML on Edge Devices</h3>
-      <p>Pre-compiled, curated models run on the MCU with RAM, timing, and closed-loop latency reviewed before deployment.</p>
+      <p>Curated models run on the MCU through validated release images with RAM, timing, and closed-loop latency reviewed before deployment.</p>
     </div>
     <div class="wild-card">
       <h3>Multimodal Sensing</h3>
@@ -117,7 +117,7 @@ hide:
     </div>
     <div class="wild-card">
       <h3>Open hardware iteration</h3>
-      <p>PCB, mechanical, firmware, software, and analysis assets are kept in the public repository.</p>
+      <p>PCB, mechanical, release-image, software, and analysis assets are kept in the public repository.</p>
     </div>
   </div>
 </section>
@@ -127,7 +127,7 @@ hide:
   <div class="wild-grid two">
     <div class="wild-card wild-step">
       <h3>Hardware setup</h3>
-      <p>Review connectors, battery polarity, microSD recommendations, probe or sensor cabling, then flash the bootloader or stage the firmware image as the final setup step.</p>
+      <p>Review connectors, battery polarity, microSD recommendations, probe or sensor cabling, then confirm the matching release image for the experiment.</p>
     </div>
     <div class="wild-card wild-step">
       <h3>Data acquisition</h3>
@@ -145,11 +145,11 @@ hide:
   <div class="wild-grid two">
     <div class="wild-card">
       <h3>Platform manuscript</h3>
-      <p>The WILD platform manuscript is in press in <em>Nature Methods</em>.</p>
+      <p>The WILD platform manuscript is currently under review.</p>
     </div>
     <div class="wild-card">
       <h3>Repository and release versions</h3>
-      <p>Report the hardware revision, firmware image, WILD_console version, and analysis scripts used for each dataset.</p>
+      <p>Report the hardware revision, release image, WILD_console version, and analysis scripts used for each dataset.</p>
     </div>
   </div>
 
@@ -157,9 +157,8 @@ hide:
 @article{zhao_wild_neurologger,
   title        = {A wireless modular platform for neuro-behavioral recording and closed-loop manipulation in small animals},
   author       = {Zhao, Zifang and Chang, Hongyu and Paudel, Praveen and Park, Jaehyo and Liu, Can and Aurelio, Maria Q. and Oliva, Azahara and Fernandez-Ruiz, Antonio},
-  journal      = {Nature Methods},
   year         = {2026},
-  note         = {In press}
+  note         = {Under review}
 }
 ```
 </section>
@@ -169,7 +168,7 @@ hide:
   <div class="wild-grid">
     <div class="wild-card">
       <h3>GitHub</h3>
-      <p><a href="https://github.com/zifangzhao/Neurologger">Browse source, hardware files, firmware releases, and analysis scripts.</a></p>
+      <p><a href="https://github.com/zifangzhao/Neurologger">Browse hardware files, release images, WILD_console installers, and analysis scripts.</a></p>
     </div>
     <div class="wild-card">
       <h3>Discussions</h3>
@@ -177,7 +176,7 @@ hide:
     </div>
     <div class="wild-card">
       <h3>Contributing</h3>
-      <p><a href="contributing/">Open an issue or pull request with hardware notes, firmware fixes, analysis examples, or documentation improvements.</a></p>
+      <p><a href="contributing/">Open an issue or pull request with hardware notes, analysis examples, compatibility reports, or documentation improvements.</a></p>
     </div>
   </div>
 </section>

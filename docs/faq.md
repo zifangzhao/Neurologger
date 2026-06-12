@@ -10,7 +10,7 @@ No. WILD is primarily a local-storage neurologger. High-bandwidth neural and mul
 
 ## What is the current recording scale?
 
-The current open-source workflow is the 64-channel WILD system. Neuropixels-compatible and active-SPI-probe variants are higher-performance development targets and are separate from the current public release.
+The current open-source workflow is the 64-channel WILD system. Neuropixels-compatible and active-SPI-probe variants are higher-performance research targets and are separate from the current public release.
 
 ## How do I install the PC software?
 
@@ -22,11 +22,11 @@ Check the microSD card first. The current usage notes call out SD format and com
 
 ## Does WILD support TinyML?
 
-WILD supports online inference of pre-compiled, experiment-specific models in firmware. Runtime generic model loading is documented as under development.
+WILD supports online inference of curated, experiment-specific models through validated release images. Runtime generic model loading is documented as under development.
 
 ## How should I cite WILD?
 
-Use the in-press platform manuscript citation on the [Publications](publications/index.md) page. For reproducibility, include the WILD hardware revision, firmware image, WILD_console version, and analysis-script version used in your methods.
+Use the under-review platform manuscript entry on the [Publications](publications/index.md) page. For reproducibility, include the WILD hardware revision, release image, WILD_console version, and analysis-script version used in your methods.
 
 ## Where should new diagrams live?
 

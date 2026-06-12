@@ -25,4 +25,4 @@ Live preview consumes device power and BLE bandwidth. Disable preview when the e
 - Confirm synchronization before starting a recording.
 - Confirm recording state before handling the animal.
 - Confirm export completion after removing the microSD card.
-- Treat SD, BLE, low-battery, and firmware-mismatch messages as session blockers until resolved.
+- Treat SD, BLE, low-battery, and release-image mismatch messages as session blockers until resolved.

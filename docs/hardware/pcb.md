@@ -15,11 +15,11 @@ The repository contains fabrication and assembly packages for the datalogger, op
 - Review PCB stackup, impedance constraints, and connector orientation before ordering.
 - Confirm component availability against the assembly files.
 - Inspect the microSD socket, battery connector, BLE UART pins, sensor connectors, and stimulation output path after assembly.
-- Keep manufacturing revisions tied to firmware releases.
+- Keep manufacturing revisions tied to compatible release images.
 
 ## Recommended Public Additions
 
 - Board render images for top and bottom layers.
 - A short bring-up checklist after assembly.
 - Known-good manufacturer settings.
-- Revision history table mapping PCB revisions to firmware compatibility.
+- Revision history table mapping PCB revisions to release-image compatibility.

@@ -21,7 +21,7 @@ The analysis documentation helps move WILD data into established neuroscience wo
 
 ## Reproducibility Checklist
 
-- Record firmware binary filename.
+- Record release image filename.
 - Record WILD_console version.
 - Preserve raw export folder.
 - Preserve the WILD parameter binary.

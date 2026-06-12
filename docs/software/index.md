@@ -11,11 +11,11 @@ WILD software covers device control, synchronization, live preview, SD-card expo
   </div>
   <div class="wild-card">
     <h3>Artificial Intelligence</h3>
-    <p>Pre-compiled embedded AI models with careful RAM, timing, and firmware integration review; generic model support is under development.</p>
+    <p>Curated embedded AI models with careful RAM, timing, and release integration review; generic model support is under development.</p>
   </div>
   <div class="wild-card">
     <h3>API and CLI operations</h3>
-    <p>Current tool operations cover data export, batch post-processing, video/audio decoding, GPIO logging, and development utilities.</p>
+    <p>Current tool operations cover data export, batch post-processing, video/audio decoding, GPIO logging, and validation utilities.</p>
   </div>
   <div class="wild-card">
     <h3>Analysis scripts</h3>
