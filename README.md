@@ -1,25 +1,24 @@
 # WILD
 
-**WILD** (Wireless Intelligent Logger) is an open-source wireless neurotechnology platform for naturalistic neuroscience. It supports lightweight multimodal neural recording, behavioral sensing, and closed-loop stimulation for freely behaving animals.
+**WILD** (Wireless, Interactive, Lightweight Datalogger) is an ultra-lightweight multimodal neurologger for long-term neural and behavioral recording in freely behaving animals. It combines local neural data logging, behavioral sensing, onboard processing, and responsive stimulation in a head-mounted platform designed for naturalistic and multi-animal experiments.
 
 ## Documentation
 
 The documentation portal is built with MkDocs Material and is maintained through Markdown files in [`docs/`](docs/).
 
 - [Getting Started](docs/getting-started/index.md)
-- [Hardware](docs/hardware/index.md)
-- [Firmware](docs/firmware/index.md)
+- [Hardware and Firmware](docs/hardware/index.md)
 - [Software](docs/software/index.md)
 - [Analysis](docs/analysis/index.md)
-- [Publications](docs/publications/index.md)
+- [Community](docs/contributing.md)
 
 ## Platform Scope
 
-- Wireless electrophysiology recording
-- Closed-loop stimulation and embedded DSP
-- Neuropixels-compatible workflow documentation
+- Local microSD electrophysiology recording with BLE-based control, synchronization, status, and low-bandwidth preview
+- Closed-loop stimulation through embedded DSP and curated TinyML pipelines
+- Current open-source 64-channel workflows, with Neuropixels-compatible and active-probe variants documented separately as development targets
 - IMU, ultrasonic audio, camera, and digital event recording
-- TinyML inference support on MCU firmware
+- TinyML inference support on MCU firmware, using pre-compiled and timing-reviewed models
 - Long-term recording and multi-animal experiment workflows
 
 ## Repository Layout

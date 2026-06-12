@@ -1,4 +1,5 @@
 site/
+discussion/
 .codex-*/
 .codex-*.log
 .codex-*.png

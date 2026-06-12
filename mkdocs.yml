@@ -1,6 +1,6 @@
 
 site_name: WILD
-site_description: Open-source wireless neurotechnology for naturalistic neuroscience
+site_description: An ultra-lightweight multimodal neurologger for naturalistic neural and behavioral recording in small animals
 site_url: https://zifangzhao.github.io/Neurologger/
 repo_url: https://github.com/zifangzhao/Neurologger
 repo_name: zifangzhao/Neurologger
@@ -31,14 +31,14 @@ theme:
     - content.tabs.link
   palette:
     - scheme: default
-      primary: teal
-      accent: cyan
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: teal
-      accent: cyan
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -69,6 +69,9 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/product-zoom.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -80,7 +83,6 @@ nav:
   - Getting Started:
       - getting-started/index.md
       - Hardware Setup: getting-started/hardware-setup.md
-      - Firmware Flashing: getting-started/firmware-flashing.md
       - Data Acquisition: getting-started/data-acquisition.md
       - Data Analysis: getting-started/data-analysis.md
   - Hardware:
@@ -89,25 +91,28 @@ nav:
       - PCB: hardware/pcb.md
       - Mechanical: hardware/mechanical.md
       - Power: hardware/power.md
-  - Firmware:
-      - firmware/index.md
-      - Architecture: firmware/architecture.md
-      - Build Instructions: firmware/build-instructions.md
-      - BLE: firmware/ble.md
-      - DSP: firmware/dsp.md
+      - Firmware:
+          - firmware/index.md
+          - Architecture: firmware/architecture.md
+          - Build Instructions: firmware/build-instructions.md
+          - BLE: firmware/ble.md
+          - DSP: firmware/dsp.md
   - Software:
       - software/index.md
       - Acquisition: software/acquisition.md
       - Live Visualization: software/live-visualization.md
       - Data Format: software/data-format.md
+      - Artificial Intelligence: software/artificial-intelligence.md
+      - API and CLI Operations: software/api-cli.md
   - Analysis:
       - analysis/index.md
       - Python: analysis/python.md
       - MATLAB: analysis/matlab.md
       - Spike Sorting: analysis/spike-sorting.md
   - Examples: examples/index.md
-  - Publications: publications/index.md
-  - Contributing: contributing.md
-  - FAQ: faq.md
+  - Community:
+      - Publications: publications/index.md
+      - Contributing: contributing.md
+      - FAQ: faq.md
 
 copyright: Copyright &copy; WILD contributors
