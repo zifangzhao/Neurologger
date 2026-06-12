@@ -4,7 +4,7 @@ Power planning is central to WILD experiments because battery selection, microSD
 
 ## Battery
 
-The current usage guide notes that WILD accepts a wide battery input range and requires enough peak power during boot.
+Use a battery approved for the specific WILD hardware revision and experiment mode. Before mounting the device, confirm that the battery can boot the device without voltage sag, start recording, and sustain the planned sensors, preview state, stimulation, or camera load.
 
 ![Battery examples](../images/WIrelessEphys_Github_9_batteries.jpg){ .wild-readable-figure }
 

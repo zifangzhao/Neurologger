@@ -1,6 +1,6 @@
 # Data Format
 
-Each recording session exports a folder with neural data, auxiliary signals, metadata, and optional camera or audio files.
+Each WILD device recording session exports a folder with neural data, auxiliary signals, metadata, and optional camera or audio files.
 
 ## Files
 
@@ -17,7 +17,7 @@ Each recording session exports a folder with neural data, auxiliary signals, met
 
 ## Export Decoding
 
-WILD records compact local streams on the device microSD card. During the current SD-card download workflow, WILD_console decodes the on-device recording into analysis-facing files: neural samples are written to `amplifier.dat`, auxiliary and timing words to `analogin.dat`, ADC or audio streams to `adc.dat`, camera payloads to `misc.dat`, and session parameters to the WILD parameter binary.
+The WILD device records compact local streams on its microSD card. During the current SD-card download workflow, WILD_console decodes the on-device recording into analysis-facing files: neural samples are written to `amplifier.dat`, auxiliary and timing words to `analogin.dat`, ADC or audio streams to `adc.dat`, camera payloads to `misc.dat`, and session parameters to the WILD parameter binary.
 
 The exported folder is therefore the decoded public data interface. Raw device storage blocks are not the expected analysis input; downstream MATLAB and Python tools operate on the downloaded files and generate derived outputs such as `info.rhd`, `time.dat`, event files, media files, IMU outputs, and spike-sorting inputs.
 
@@ -25,7 +25,7 @@ The exported folder is therefore the decoded public data interface. Raw device s
 
 ## Time Synchronization
 
-WILD keeps high-bandwidth recordings local while WILD_console provides PC-device coordination over BLE. At connection and recording setup, the console synchronizes device state with the PC session and records timing context with the exported dataset.
+The WILD device keeps high-bandwidth recordings local while WILD_console provides PC-device coordination over BLE. At connection and recording setup, the console synchronizes device state with the PC session and records timing context with the exported dataset.
 
 The primary sample timeline is reconstructed from the device sampling configuration and sample count. `time.dat` stores the sample-index timeline used by Intan-style workflows, while the WILD parameter binary preserves device-side recording time, hardware version, release image identity, sampling configuration, and DSP settings. External sync lines and digital inputs in `analogin.dat` or generated event files provide the experiment-level alignment path for multi-device sessions and behavioral equipment.
 

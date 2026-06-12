@@ -1,13 +1,13 @@
 # Software
 
-Software documentation covers WILD_console installation, acquisition workflows, SD-card export, and downstream processing for analysis.
+Software documentation covers how to connect to the WILD device, configure recordings in WILD_console, export data from the device microSD card, and process recordings for analysis.
 
 ## Software Components
 
 <div class="wild-grid two">
   <div class="wild-card">
     <h3>WILD_console</h3>
-    <p>Windows GUI for BLE connection, synchronization, recording setup, selected preview display, closed-loop configuration, and SD-card export.</p>
+    <p>Windows GUI for connecting to the WILD device over BLE, synchronizing the session, setting up recordings, previewing selected signals, configuring closed-loop behavior, and exporting SD-card data.</p>
   </div>
   <div class="wild-card">
     <h3>Artificial Intelligence</h3>

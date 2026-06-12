@@ -1,6 +1,6 @@
 # Examples
 
-These example workflows summarize common WILD use cases and the metadata needed to make each experiment reproducible.
+These example workflows summarize common WILD device use cases and the metadata needed to make each experiment reproducible.
 
 ## Workflow Index
 

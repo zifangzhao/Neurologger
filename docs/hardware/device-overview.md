@@ -1,8 +1,8 @@
 # Device Overview
 
-WILD is a Wireless, Interactive, Lightweight Datalogger: an ultra-lightweight multimodal neurologger for freely behaving animals. The platform combines local neural data logging, auxiliary sensing, onboard processing, BLE configuration and status, synchronization, and responsive stimulation.
+The WILD device is a Wireless, Interactive, Lightweight Datalogger: an ultra-lightweight multimodal neurologger for freely behaving animals. The device combines local neural data logging, auxiliary sensing, onboard processing, BLE configuration and status, synchronization, and responsive stimulation.
 
-WILD is not a BLE telemetry system. High-bandwidth neural data are recorded locally to microSD; wireless links are used for discovery, configuration, synchronization, status, low-bandwidth preview, and online control commands.
+The WILD device is not a BLE telemetry system. High-bandwidth neural data are recorded locally to microSD; wireless links are used for discovery, configuration, synchronization, status, low-bandwidth preview, and online control commands.
 
 ![WILD device](../images/WIrelessEphys_Github_1_devicePicture.jpg){ .wild-readable-figure }
 
@@ -21,7 +21,7 @@ flowchart TB
 
 ## Current Public Scope
 
-- The current open-source WILD release is the 64-channel local-storage neurologger workflow.
+- The current open-source WILD device release is the 64-channel local-storage neurologger workflow.
 - Higher-performance Neuropixels-compatible and active-SPI-probe workflows are separate research and variant targets.
 - Multi-device experiments use explicit synchronization workflows rather than BLE timestamps alone.
 - Mass is configuration-dependent; report device-only mass, probe or module mass, battery mass, and complete implant mass separately.

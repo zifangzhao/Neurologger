@@ -5,7 +5,7 @@ A prepared WILD device moves from hardware checks to acquisition and analysis th
 <div class="wild-grid two">
   <div class="wild-card">
     <h3>1. Hardware setup</h3>
-    <p>Device, connector, microSD, battery, probe or sensor cabling, and release-image checks before the first recording.</p>
+    <p>WILD device, connector, microSD, battery, probe or sensor cabling, and release-image checks before the first recording.</p>
   </div>
   <div class="wild-card">
     <h3>2. Data acquisition</h3>
@@ -21,8 +21,8 @@ A prepared WILD device moves from hardware checks to acquisition and analysis th
 
 - Windows 10 or later for WILD_console.
 - Bluetooth 4.0 or later for BLE control.
-- A tested microSD card. The current user guide recommends Samsung EVO series or Lexar cards and warns that some SanDisk cards may be unreliable.
-- A battery that can provide the required peak current during boot and recording.
+- A tested microSD card installed in the WILD device. Use Samsung EVO series or tested Lexar cards for first recordings; some SanDisk cards may be unreliable.
+- A battery that can boot the WILD device and sustain the planned recording mode.
 
 ## Repository Assets
 
@@ -35,4 +35,4 @@ A prepared WILD device moves from hardware checks to acquisition and analysis th
 | MATLAB and Python analysis scripts | [Code](https://github.com/zifangzhao/Neurologger/tree/main/Code) |
 
 !!! tip "Recommended first path"
-    The recommended first-device path is Hardware Setup, Data Acquisition, then Data Analysis. SD-card, battery, release-image, and boot-state checks provide the baseline for troubleshooting acquisition.
+    The recommended first-device path is Hardware Setup, Data Acquisition, then Data Analysis. The WILD device SD card, battery, release image, and boot state provide the baseline for troubleshooting acquisition.

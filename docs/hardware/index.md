@@ -1,6 +1,6 @@
 # Hardware
 
-Hardware documentation covers the WILD device architecture, board fabrication assets, mechanical assembly, power choices, and release-image compatibility for each supported hardware revision.
+Hardware documentation covers the WILD device architecture, board fabrication assets, mechanical assembly, power choices, and release-image compatibility for each supported device revision.
 
 <div class="wild-grid two">
   <div class="wild-card">
@@ -21,7 +21,7 @@ Hardware documentation covers the WILD device architecture, board fabrication as
   </div>
   <div class="wild-card">
     <h3>Release Images</h3>
-    <p>Validated device images linked to compatible hardware revisions and experiment metadata.</p>
+    <p>Validated WILD device images linked to compatible hardware revisions and experiment metadata.</p>
   </div>
 </div>
 
@@ -38,4 +38,4 @@ Hardware documentation covers the WILD device architecture, board fabrication as
 
 ## Visual Asset Policy
 
-Public hardware visuals are limited to real WILD material: device photographs, CAD or EDA exports, microscope images, measured drawings, screenshots from project tools, or hand-authored diagrams derived from measured hardware. AI-generated device photographs or device-like renders are excluded from WILD hardware documentation.
+Public hardware visuals are limited to real WILD device material: device photographs, CAD or EDA exports, microscope images, measured drawings, screenshots from project tools, or hand-authored diagrams derived from measured hardware. AI-generated device photographs or device-like renders are excluded from WILD hardware documentation.

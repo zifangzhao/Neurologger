@@ -1,8 +1,8 @@
 # Artificial Intelligence
 
-WILD supports onboard biomarker detection and behavioral classification for responsive stimulation.
+The WILD device supports onboard biomarker detection and behavioral classification for responsive stimulation.
 
-Current releases are intentionally conservative: AI models are curated into validated release images and reviewed for RAM use, compute timing, sampling schedules, and closed-loop latency.
+Current WILD device releases are intentionally conservative: AI models are curated into validated release images and reviewed for RAM use, compute timing, sampling schedules, and closed-loop latency.
 
 ## Current Model Integration
 

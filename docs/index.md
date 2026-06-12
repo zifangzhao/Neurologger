@@ -7,7 +7,7 @@ hide:
 <section class="wild-hero">
   <div>
     <h1>A wireless modular platform for neuro-behavioral recording and closed-loop manipulation in small animals</h1>
-    <p>Wireless, Interactive, Lightweight Datalogger (WILD) is an ultra-lightweight multimodal neurologger for local neural data logging, behavioral sensing, onboard processing, and responsive stimulation in freely behaving animals.</p>
+    <p>The Wireless, Interactive, Lightweight Datalogger (WILD) device is an ultra-lightweight multimodal neurologger for local neural data logging, behavioral sensing, onboard processing, and responsive stimulation in freely behaving animals.</p>
     <div class="wild-actions">
       <a class="md-button md-button--primary" href="getting-started/">Get Started</a>
       <a class="md-button" href="hardware/">Hardware</a>
@@ -24,7 +24,7 @@ hide:
   </div>
   <figure class="wild-hero-media">
     <img src="images/WIrelessEphys_Github_1_devicePicture.jpg" alt="WILD wireless modular datalogger device">
-    <figcaption class="wild-caption">WILD integrates local neural recording, behavioral monitoring, real-time embedded processing, microSD storage, and wireless control in a compact platform for naturalistic systems neuroscience experiments.</figcaption>
+    <figcaption class="wild-caption">The WILD device integrates local neural recording, behavioral monitoring, real-time embedded processing, microSD storage, and wireless control for naturalistic systems neuroscience experiments.</figcaption>
   </figure>
 </section>
 
@@ -43,13 +43,13 @@ hide:
     <div class="wild-zoom-step" data-zoom-label="microSD storage" data-zoom-x="10%" data-zoom-y="62%" data-zoom-scale="2.35" data-zoom-title="Local storage for long sessions" data-zoom-description="Recording data is stored on-device, preserving full-resolution datasets for long sessions while BLE remains available for control and preview."></div>
     <div class="wild-zoom-step" data-zoom-label="Amplifier and electrode pads" data-zoom-x="43%" data-zoom-y="82%" data-zoom-scale="2.3" data-zoom-title="Neural interface and probe connection" data-zoom-description="Amplifier and electrode-pad regions route neural signals into the acquisition stack for downstream preprocessing and analysis."></div>
     <div class="wild-zoom-step" data-zoom-label="Ext IO and battery connectors" data-zoom-x="47%" data-zoom-y="0%" data-zoom-scale="2.5" data-zoom-title="Modular power and IO" data-zoom-description="Connector regions support external modules, battery connection, synchronization, and configuration workflows for different experiment designs."></div>
-    <div class="wild-zoom-step" data-zoom-label="Camera and microphone" data-zoom-x="115%" data-zoom-y="70%" data-zoom-scale="1.8" data-zoom-title="Behavioral sensing add-ons" data-zoom-description="Camera and microphone modules extend WILD from neural recording into synchronized neuro-behavioral datasets."></div>
+    <div class="wild-zoom-step" data-zoom-label="Camera and microphone" data-zoom-x="115%" data-zoom-y="70%" data-zoom-scale="1.8" data-zoom-title="Behavioral sensing add-ons" data-zoom-description="Camera and microphone modules extend the WILD device from neural recording into synchronized neuro-behavioral datasets."></div>
   </div>
 </section>
 
 <section class="wild-section">
   <h2>Key Features</h2>
-  <p>WILD capabilities center on local neural logging, responsive stimulation, embedded processing, multimodal sensing, and long-duration experiments.</p>
+  <p>The WILD device is built around local neural logging, responsive stimulation, embedded processing, multimodal sensing, and long-duration experiments.</p>
   <div class="wild-grid">
     <div class="wild-card">
       <h3>Local Neural Logging</h3>
@@ -76,7 +76,7 @@ hide:
 
 <section class="wild-section">
   <h2>System Overview</h2>
-  <p>A typical session moves from the animal-mounted device to local storage, synchronization, and offline analysis.</p>
+  <p>A typical session moves from the animal-mounted WILD device to local storage, synchronization, and offline analysis.</p>
   <div class="wild-system-panels">
     <div class="wild-flow wild-flow-vertical" aria-label="WILD system overview">
       <div>Animal</div>
@@ -117,7 +117,7 @@ hide:
     </div>
     <div class="wild-card">
       <h3>Open hardware iteration</h3>
-      <p>The repository contains hardware files, validated release assets, WILD_console installers, and analysis scripts.</p>
+      <p>The repository contains WILD device hardware files, validated release assets, WILD_console installers, and analysis scripts.</p>
     </div>
   </div>
 </section>
