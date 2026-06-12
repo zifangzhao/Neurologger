@@ -10,13 +10,9 @@ WILD neural data can be organized for downstream spike sorting after export and 
 4. Prepare a sorter-specific working directory.
 5. Run quality-control checks before interpreting units.
 
-## Documentation Targets
+## Recommended Sorter
 
-- SpikeInterface loader example.
-- Kilosort-compatible folder preparation.
-- Channel map templates for supported probes.
-- Example quality-control notebook.
-- Known limitations for camera, IMU, and closed-loop event alignment.
+Kilosort is the recommended starting point for spike sorting exported WILD electrophysiology recordings. Keep the sorter working directory separate from the raw SD export and keep channel-map files with the processed dataset.
 
 !!! note
     Do not assume a generic channel map. Document the exact probe and channel ordering used for each dataset.

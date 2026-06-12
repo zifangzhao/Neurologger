@@ -1,13 +1,21 @@
 # Software
 
-WILD software covers acquisition, live visualization, data export, and post-processing entry points.
+WILD software covers device control, synchronization, live preview, SD-card export, and post-processing entry points.
 
 ## Software Components
 
 <div class="wild-grid two">
   <div class="wild-card">
     <h3>WILD_console</h3>
-    <p>Windows GUI for BLE connection, recording setup, preview display, closed-loop configuration, and data download.</p>
+    <p>Windows GUI for BLE connection, synchronization, recording setup, selected preview display, closed-loop configuration, and SD-card export.</p>
+  </div>
+  <div class="wild-card">
+    <h3>Artificial Intelligence</h3>
+    <p>Pre-compiled embedded AI models with careful RAM, timing, and firmware integration review; generic model support is under development.</p>
+  </div>
+  <div class="wild-card">
+    <h3>API and CLI operations</h3>
+    <p>Current tool operations cover data export, batch post-processing, video/audio decoding, GPIO logging, and development utilities.</p>
   </div>
   <div class="wild-card">
     <h3>Analysis scripts</h3>
@@ -17,7 +25,7 @@ WILD software covers acquisition, live visualization, data export, and post-proc
 
 ## Install
 
-Download the latest WILD console installer from [Software](https://github.com/zifangzhao/Neurologger/tree/main/Software). Development builds should be documented under the WILD console name, even when internal source folders still use older names.
+Download the latest WILD_console installer from [Software](https://github.com/zifangzhao/Neurologger/tree/main/Software). Public documentation uses the WILD name even when internal source folders use older development names.
 
 ## Requirements
 

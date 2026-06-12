@@ -1,6 +1,8 @@
 # DSP and Closed-loop Control
 
-WILD supports online filtering and stimulation logic for closed-loop experiments.
+WILD supports online filtering, event detection, and stimulation logic for closed-loop experiments.
+
+Closed-loop behavior is implemented on the device through embedded DSP and curated TinyML pipelines. This enables low-latency responsive stimulation without requiring continuous wireless transmission of high-bandwidth neural data.
 
 ## DSP Modes
 
@@ -15,7 +17,7 @@ WILD supports online filtering and stimulation logic for closed-loop experiments
 
 ## Filters
 
-![Closed-loop filter parameters](../images/WIrelessEphys_Github_3_filterParams.jpg)
+![Closed-loop filter parameters](../images/WIrelessEphys_Github_3_filterParams.jpg){ .wild-readable-figure }
 
 Current filter families include delta, theta, alpha, beta, gamma, epsilon, and ripple.
 
@@ -27,7 +29,7 @@ Current filter families include delta, theta, alpha, beta, gamma, epsilon, and r
 
 ## Stimulation Parameters
 
-Document pulse width, delay, frequency, train length, random delay, intensity, and channel mapping with the firmware version used for validation.
+Operator-facing stimulation parameters include pulse width, delay, frequency, train length, random delay, intensity, and channel mapping. Record the firmware version and hardware configuration used for validation with each closed-loop experiment.
 
 !!! important
-    Closed-loop detection and stimulation should be validated on the bench before in vivo experiments. This page should eventually include reproducible test waveforms and expected trigger timing.
+    Closed-loop detection and stimulation should be validated on the bench before in vivo experiments.

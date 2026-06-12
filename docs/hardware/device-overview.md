@@ -1,31 +1,54 @@
 # Device Overview
 
-WILD is a lightweight wireless neurologger for freely behaving animals. The platform combines neural recording, auxiliary sensing, local storage, BLE configuration, and closed-loop stimulation.
+WILD is a Wireless, Interactive, Lightweight Datalogger: an ultra-lightweight multimodal neurologger for freely behaving animals. The platform combines local neural data logging, auxiliary sensing, onboard processing, BLE configuration and status, synchronization, and responsive stimulation.
 
-![WILD device](../images/WIrelessEphys_Github_1_devicePicture.jpg)
+WILD should not be described as a BLE telemetry system. High-bandwidth neural data are recorded locally to microSD; wireless links are used primarily for discovery, configuration, synchronization, status, low-bandwidth preview, and online control commands.
+
+![WILD device](../images/WIrelessEphys_Github_1_devicePicture.jpg){ .wild-readable-figure }
 
 ## Functional Blocks
 
 ```mermaid
-flowchart LR
+flowchart TB
   Probe[Neural probe] --> AFE[Analog front end]
   Sensors[IMU, audio, camera, digital inputs] --> MCU[MCU and embedded DSP]
   AFE --> MCU
   MCU --> SD[microSD storage]
-  MCU --> BLE[BLE control and preview]
+  MCU --> BLE[BLE control, sync, status, preview]
   MCU --> Stim[Stimulation outputs]
   SD --> Analysis[MATLAB, Python, spike sorting]
 ```
 
+## Current Public Scope
+
+- The current open-source WILD release is the 64-channel local-storage neurologger workflow.
+- Higher-performance Neuropixels-compatible and active-SPI-probe workflows are separate development targets.
+- Multi-device experiments use explicit synchronization workflows rather than BLE timestamps alone.
+- Mass is configuration-dependent; device-only mass, probe or module mass, battery mass, and complete implant mass should be reported separately.
+
+## Core Specifications
+
+| Category | Current WILD specification |
+| --- | --- |
+| Neural channels | 64 |
+| Device mass | Approximately 1.5 g for the logger board, configuration-dependent |
+| Board dimensions | 23.3 x 15.7 mm |
+| Battery input | 3.3-5 V |
+| Sampling rates | 1,250-20,000 Hz |
+| ADC resolution | 16-bit electrophysiology and microphone data; 10-bit camera data |
+| Storage | microSD, Class 10 or better; low-power endurance cards are preferred |
+| Recommended cards | Samsung EVO older orange U1 generation or tested Lexar cards |
+| BLE | Bluetooth Low Energy 5.2 for control, synchronization support, status, and preview |
+| IMU | BMX160, up to 500 Hz |
+| USV microphone | SPH6611LR5H, approximately 1-80 kHz bandwidth |
+| Camera | NanEye-C, 320-pixel class, 16 FPS, 10-bit |
+| Stimulation | Optional two-channel laser-diode stimulation module based on TPS6115x |
+
 ## Supported Modalities
 
-- Neural electrophysiology recording.
-- Closed-loop stimulation.
+- Local neural electrophysiology recording.
+- Responsive closed-loop stimulation from onboard detection.
 - IMU sensing and sensor fusion.
 - Ultrasonic vocalization audio through ADC data.
 - Head-mounted camera data through `misc.dat`.
 - Digital input and synchronization signals.
-
-## What to Document Next
-
-For public adoption, the device overview should eventually include mass, dimensions, channel configurations, supported probe families, battery life by mode, maximum sampling rates, and validated operating conditions.

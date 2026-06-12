@@ -1,37 +1,23 @@
 # Publications
 
-Use this page for peer-reviewed articles, preprints, protocols, datasets, and conference abstracts related to WILD.
+This page provides citation information for the WILD platform and guidance for reporting the exact hardware, firmware, and software versions used in a study.
 
-## Citation
+## Platform Manuscript
 
-Until a formal platform paper is available, cite the repository and include the firmware or software version used in the work.
+The WILD platform manuscript is in press in *Nature Methods*. Cite the manuscript once the final DOI is available. For repository-based methods descriptions, include the WILD hardware revision, firmware image, WILD_console version, and analysis-script version used in the work.
 
 ```bibtex
-@misc{wild_neurologger,
-  title        = {WILD: Open-source Wireless Neurotechnology for Naturalistic Neuroscience},
-  author       = {WILD contributors},
+@article{zhao_wild_neurologger,
+  title        = {A wireless modular platform for neuro-behavioral recording and closed-loop manipulation in small animals},
+  author       = {Zhao, Zifang and Chang, Hongyu and Paudel, Praveen and Park, Jaehyo and Liu, Can and Aurelio, Maria Q. and Oliva, Azahara and Fernandez-Ruiz, Antonio},
+  journal      = {Nature Methods},
   year         = {2026},
-  howpublished = {\url{https://github.com/zifangzhao/Neurologger}}
+  note         = {In press}
 }
 ```
 
-## Publication Cards
+## Repository Citation
 
-<div class="wild-grid two">
-  <div class="wild-card">
-    <h3>Platform paper</h3>
-    <p>Add title, authors, DOI, preprint link, and citation once available.</p>
-  </div>
-  <div class="wild-card">
-    <h3>Protocol or methods note</h3>
-    <p>Add assembly, acquisition, closed-loop, and analysis protocols when released.</p>
-  </div>
-</div>
+When citing a specific software or hardware release, include the GitHub repository URL and the exact firmware, software, and hardware revision used.
 
-## What to Include
-
-- DOI or stable URL.
-- Dataset URL.
-- Code or firmware version.
-- Hardware revision.
-- Short summary of which WILD features were used.
+Repository: [https://github.com/zifangzhao/Neurologger](https://github.com/zifangzhao/Neurologger)

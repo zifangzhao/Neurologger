@@ -4,7 +4,7 @@ WILD firmware coordinates sensor acquisition, local storage, BLE control, closed
 
 ## Reference Firmware Tree
 
-The current public release binaries live in [Firmware](https://github.com/zifangzhao/Neurologger/tree/main/Firmware). Public docs should describe all supported hardware revisions as WILD firmware targets, with exact source trees and toolchains documented by WILD revision name.
+The current public release binaries live in [Firmware](https://github.com/zifangzhao/Neurologger/tree/main/Firmware). Public documentation uses WILD revision names for supported hardware and firmware targets.
 
 ## Firmware Topics
 
@@ -19,7 +19,7 @@ The current public release binaries live in [Firmware](https://github.com/zifang
   </div>
   <div class="wild-card">
     <h3>BLE</h3>
-    <p>Wireless discovery, command and status messages, preview streaming, and synchronization behavior.</p>
+    <p>Wireless discovery, command and status messages, selected preview signals, and synchronization behavior.</p>
   </div>
   <div class="wild-card">
     <h3>DSP</h3>
@@ -28,4 +28,4 @@ The current public release binaries live in [Firmware](https://github.com/zifang
 </div>
 
 !!! warning "Version discipline"
-    Firmware behavior should be documented with the exact binary name or commit hash used for validation.
+    Record the exact firmware binary name or commit hash used for validation.

@@ -24,9 +24,6 @@ flowchart TD
 - Run online filters and closed-loop logic when enabled.
 - Provide preview and state data for live monitoring.
 
-## Recommended Documentation Additions
+## Timing and Release Traceability
 
-- Task and interrupt diagram.
-- Timing budget for acquisition, SD writes, BLE preview, and DSP.
-- Firmware state machine.
-- Binary release checklist.
+Firmware behavior should be tied to a named binary and hardware revision. For experiments that use closed-loop detection, TinyML, or multi-device synchronization, record the firmware image name, WILD hardware revision, sampling mode, enabled modalities, and host software version with the dataset.

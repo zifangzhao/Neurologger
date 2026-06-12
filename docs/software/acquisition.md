@@ -1,6 +1,8 @@
 # Acquisition
 
-The acquisition workflow starts in WILD_console and ends with exported recording folders.
+The acquisition workflow starts in WILD_console and ends with exported recording folders from the device microSD card.
+
+WILD records high-bandwidth neural and multimodal data locally. BLE is used for discovery, synchronization, configuration, status, selected preview, and control commands rather than continuous full-bandwidth data streaming.
 
 ## Typical Session
 
@@ -9,8 +11,8 @@ The acquisition workflow starts in WILD_console and ends with exported recording
 3. Connect over BLE.
 4. Read or configure device parameters.
 5. Configure sampling, closed-loop, camera, stimulation, and GPIO options as needed.
-6. Start recording.
-7. Monitor preview and state signals.
+6. Start local recording.
+7. Monitor selected preview and state signals.
 8. Stop recording.
 9. Export data from the SD card.
 

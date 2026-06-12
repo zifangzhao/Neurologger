@@ -13,7 +13,7 @@ Each recording session exports a folder with neural data, auxiliary signals, met
 | `misc.dat` | Raw camera data. |
 | `time.dat` | Time vector generated during post-processing. |
 | `info.rhd` | Intan-compatible metadata header. |
-| WILD parameter binary | System and DSP parameters. Confirm the final public filename before release. |
+| WILD parameter binary | System and DSP parameters associated with the recording session. |
 
 ## Compatibility Goal
 

@@ -1,8 +1,8 @@
 # Examples
 
-Examples should bridge the gap between reference documentation and reproducible experiments.
+These example workflows summarize common WILD use cases and the metadata needed to make each experiment reproducible.
 
-## Planned Example Set
+## Workflow Index
 
 | Example | Scope |
 | --- | --- |
@@ -13,9 +13,9 @@ Examples should bridge the gap between reference documentation and reproducible 
 | Outdoor recording | Power planning, SD choice, wireless checks, data integrity checks. |
 | Camera plus IMU | Camera decode, IMU processing, and behavioral alignment. |
 
-## Example Template
+## Required Metadata
 
-Each example should include:
+For each public dataset or protocol, record:
 
 - Goal.
 - Hardware revision.

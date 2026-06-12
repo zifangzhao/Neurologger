@@ -1,8 +1,10 @@
 # Live Visualization
 
-WILD_console includes a real-time display for previewing neural and auxiliary signals during recording.
+WILD_console includes a real-time display for previewing selected neural and auxiliary signals during recording.
 
-![WILD online API and live display](../images/WIrelessEphys_Github_4_onlineAPI.jpg)
+The live view is a monitoring and control tool. It should not be described as the main recording path for high-channel-count data; full-resolution recordings are written locally to the device microSD card.
+
+![WILD online API and live display](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
 
 ## Display Controls
 
@@ -15,10 +17,12 @@ WILD_console includes a real-time display for previewing neural and auxiliary si
 
 ## Power and Bandwidth
 
-Live preview consumes device power and BLE bandwidth. Disable preview when the experiment prioritizes maximum runtime over live monitoring.
+Live preview consumes device power and BLE bandwidth. Disable preview when the experiment prioritizes maximum runtime over live monitoring, and recover the full dataset from microSD after the session.
 
-## Documentation Targets
+## Status Checks
 
-- Screenshots for each main acquisition panel.
-- Expected status indicators during connection, sync, recording, and download.
-- Failure-state examples for SD, BLE, low battery, and firmware mismatch conditions.
+- Confirm connection and TX/RX counters after BLE discovery.
+- Confirm synchronization before starting a recording.
+- Confirm recording state before handling the animal.
+- Confirm export completion after removing the microSD card.
+- Treat SD, BLE, low-battery, and firmware-mismatch messages as session blockers until resolved.
