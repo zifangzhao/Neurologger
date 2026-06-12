@@ -8,7 +8,7 @@ WILD is a local-storage neurologger: high-bandwidth neural and multimodal data a
 
 For a basic dry run, only a small part of WILD_console is needed. The closed-loop, camera, stimulation, GPIO, and advanced parameter panels can stay unchanged until the device is already connecting, synchronizing, recording, and exporting reliably.
 
-The interface maps below are generated from the current main WILD_console `Form1` layout. They are source-derived UI diagrams, not AI-generated device imagery.
+The online and live figures below are runtime screenshots from WILD_console during hardware sessions. Some window-title or device-list strings may still show older internal labels; the public documentation uses the WILD name consistently.
 
 <div class="wild-operator-path">
   <div class="wild-operator-step">
@@ -49,7 +49,7 @@ The interface maps below are generated from the current main WILD_console `Form1
   First-session rule: ignore <span class="wild-button-label muted">Closed-loop</span>, <span class="wild-button-label muted">Camera</span>, <span class="wild-button-label muted">Advanced</span>, and parameter panels until a simple recording can be started, stopped, and exported.
 </p>
 
-![Main WILD_console Form1 online control map](../images/WILD_console_online_controls_map.svg){ .wild-readable-figure }
+![WILD_console runtime screenshot during connected acquisition](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
 
 ## Connect
 
@@ -83,7 +83,7 @@ A connected or synchronized GUI state is not, by itself, proof that data were wr
 
 The real-time view supports selected neural previews, auxiliary signals, IMU and DSP states, stimulation triggers, and threshold overlays.
 
-![Main WILD_console Form1 live preview control map](../images/WILD_console_live_preview_map.svg){ .wild-readable-figure }
+![WILD_console runtime screenshot with live preview and camera windows](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
 
 Disable preview to save power and BLE bandwidth when live monitoring is not needed. Recover full-resolution recording data from the microSD card after the session.
 
@@ -95,4 +95,4 @@ Insert the SD card and click <span class="wild-button-label primary">Save to Dis
   Normal export does not require the red maintenance buttons. <span class="wild-button-label warning">Quick Format</span> is only for preparing a known empty card, and release-image maintenance is outside the routine recording path.
 </p>
 
-![Main WILD_console Form1 offline export control map](../images/WILD_console_offline_export_map.svg){ .wild-readable-figure }
+![WILD_console runtime screenshot of the offline export workflow](../images/WIrelessEphys_Github_5_offlineAPI.jpg){ .wild-readable-figure }

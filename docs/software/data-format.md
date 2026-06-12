@@ -21,7 +21,7 @@ WILD records compact local streams on the device microSD card. During the curren
 
 The exported folder is therefore the decoded public data interface. Raw device storage blocks are not the expected analysis input; downstream MATLAB and Python tools operate on the downloaded files and generate derived outputs such as `info.rhd`, `time.dat`, event files, media files, IMU outputs, and spike-sorting inputs.
 
-![Main WILD_console Form1 offline export control map](../images/WILD_console_offline_export_map.svg){ .wild-readable-figure }
+![WILD_console runtime screenshot of the offline export workflow](../images/WIrelessEphys_Github_5_offlineAPI.jpg){ .wild-readable-figure }
 
 ## Time Synchronization
 

@@ -17,9 +17,9 @@ Most first-session work uses four button groups:
 
 Closed-loop settings, camera controls, stimulation parameters, GPIO options, and advanced panels are optional experiment-specific controls. They are easier to configure after the basic connect-record-export path is working.
 
-![Main WILD_console Form1 online control map](../images/WILD_console_online_controls_map.svg){ .wild-readable-figure }
+![WILD_console runtime screenshot during connected acquisition](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
 
-![Main WILD_console Form1 offline export control map](../images/WILD_console_offline_export_map.svg){ .wild-readable-figure }
+![WILD_console runtime screenshot of the offline export workflow](../images/WIrelessEphys_Github_5_offlineAPI.jpg){ .wild-readable-figure }
 
 ## Typical Session
 
