@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1142 704" role="img" aria-labelledby="title desc">
+<title id="title">Online control map</title>
+<desc id="desc">Source-derived WILD_console Form1 control map generated from the current main Form1.Designer.cs. No AI-generated device imagery.</desc>
+<!-- Generated from current main WILD_console Form1.Designer.cs; no AI-generated device imagery. -->
+<style>text{font-family:Arial,Helvetica,sans-serif}.small{font-size:11px}.muted{fill:#50687a}</style>
+<rect x="0" y="0" width="1142" height="42" fill="#092b4b" stroke="#092b4b" stroke-width="1" rx="0"/>
+<text x="18" y="27" font-size="17" fill="#ffffff" font-weight="700" font-family="Arial, Helvetica, sans-serif">WILD Advanced Closed-loop Ephys System - main Form1 source</text>
+<rect x="0" y="42" width="1142" height="30" fill="#f2f5f8" stroke="#bfd1dd" stroke-width="1" rx="0"/>
+<rect x="8" y="46" width="66" height="25" fill="#eef4f8" stroke="#bfd1dd" stroke-width="1" rx="3"/>
+<text x="41.0" y="64" font-size="13" fill="#0c1720" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Offline</text>
+<rect x="78" y="46" width="66" height="25" fill="#ffffff" stroke="#bfd1dd" stroke-width="1" rx="3"/>
+<text x="111.0" y="64" font-size="13" fill="#0c1720" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Online</text>
+<rect x="148" y="46" width="88" height="25" fill="#eef4f8" stroke="#bfd1dd" stroke-width="1" rx="3"/>
+<text x="192.0" y="64" font-size="13" fill="#0c1720" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Advanced</text>
+<text x="1130" y="27" font-size="13" fill="#d9edf8" text-anchor="end" font-family="Arial, Helvetica, sans-serif">Online control map</text>
+<rect x="8" y="80" width="1126" height="374" fill="#ffffff" stroke="#bfd1dd" stroke-width="1" rx="7"/>
+<rect x="20" y="92" width="1098" height="28" fill="#dce3e8" stroke="#dce3e8" stroke-width="1" rx="0"/>
+<text x="58" y="111" font-size="14" fill="#0c1720" font-weight="700" font-family="Arial, Helvetica, sans-serif">Wave</text>
+<text x="1052" y="111" font-size="14" fill="#0c1720" font-weight="700" font-family="Arial, Helvetica, sans-serif">CH1</text>
+<polyline points="55.0,289.5 60.7,295.5 66.3,294.4 72.0,294.4 77.7,299.8 83.4,300.8 89.0,295.4 94.7,293.9 100.4,295.8 106.0,291.4 111.7,284.3 117.4,284.0 123.0,285.2 128.7,280.6 134.4,277.6 140.1,282.2 145.7,285.4 151.4,283.4 157.1,285.9 162.7,293.4 168.4,295.5 174.1,293.6 179.7,297.0 185.4,301.5 191.1,298.2 196.8,293.7 202.4,295.1 208.1,294.5 213.8,287.3 219.4,283.2 225.1,285.2 230.8,283.4 236.5,278.0 242.1,279.4 247.8,284.7 253.5,284.5 259.1,283.6 264.8,289.8 270.5,295.6 276.1,294.3 281.8,294.5 287.5,300.0 293.2,300.7 298.8,295.2 304.5,293.9 310.2,295.7 315.8,291.1 321.5,284.1 327.2,284.1 332.8,285.2 338.5,280.3 344.2,277.7 349.9,282.5 355.5,285.4 361.2,283.3 366.9,286.1 372.5,293.6 378.2,295.5 383.9,293.6 389.6,297.2 395.2,301.5 400.9,298.0 406.6,293.6 412.2,295.2 417.9,294.3 423.6,287.0 429.2,283.2 434.9,285.3 440.6,283.2 446.3,277.9 451.9,279.6 457.6,284.9 463.3,284.4 468.9,283.7 474.6,290.2 480.3,295.6 485.9,294.2 491.6,294.7 497.3,300.2 503.0,300.5 508.6,295.0 514.3,294.0 520.0,295.7 525.6,290.8 531.3,284.0 537.0,284.2 542.7,285.1 548.3,280.1 554.0,277.7 559.7,282.7 565.3,285.4 571.0,283.3 576.7,286.4 582.3,293.9 588.0,295.4 593.7,293.6 599.4,297.5 605.0,301.5 610.7,297.7 616.4,293.6 622.0,295.3 627.7,294.1 633.4,286.7 639.1,283.3 644.7,285.3 650.4,282.9 656.1,277.8 661.7,279.9 667.4,285.0 673.1,284.3 678.7,283.9 684.4,290.5 690.1,295.7 695.8,294.1 701.4,294.9 707.1,300.4 712.8,300.3 718.4,294.9 724.1,294.1 729.8,295.7 735.4,290.5 741.1,283.9 746.8,284.3 752.5,285.0 758.1,279.9 763.8,277.8 769.5,282.9 775.1,285.3 780.8,283.3 786.5,286.7 792.2,294.1 797.8,295.3 803.5,293.6 809.2,297.7 814.8,301.5 820.5,297.5 826.2,293.6 831.8,295.4 837.5,293.9 843.2,286.4 848.9,283.3 854.5,285.4 860.2,282.7 865.9,277.7 871.5,280.1 877.2,285.1 882.9,284.2 888.5,284.0 894.2,290.8 899.9,295.7 905.6,294.0 911.2,295.0 916.9,300.5 922.6,300.2 928.2,294.7 933.9,294.2 939.6,295.6 945.3,290.1 950.9,283.7 956.6,284.4 962.3,284.9 967.9,279.6 973.6,277.9 979.3,283.2 984.9,285.3 990.6,283.2 996.3,287.0 1002.0,294.3 1007.6,295.2 1013.3,293.6 1019.0,298.0 1024.6,301.5 1030.3,297.2 1036.0,293.6 1041.6,295.5 1047.3,293.6 1053.0,286.1 1058.7,283.4 1064.3,285.4 1070.0,282.5" fill="none" stroke="#4b64ff" stroke-width="1.8"/>
+<rect x="40" y="146" width="255" height="66" fill="#eef8fd" stroke="#0f6ea6" stroke-width="1.6" rx="7"/>
+<text x="52" y="169" font-size="15" fill="#0f6ea6" font-weight="700" font-family="Arial, Helvetica, sans-serif">Live preview area</text>
+<text x="52" y="191" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Selected low-bandwidth neural or auxiliary view</text>
+<rect x="8" y="464" width="1126" height="210" fill="#ffffff" stroke="#bfd1dd" stroke-width="1" rx="7"/>
+<text x="22" y="484" font-size="14" fill="#0c1720" font-weight="700" font-family="Arial, Helvetica, sans-serif">Settings</text>
+<text x="25" y="510" font-size="13" fill="#0c1720" font-family="Arial, Helvetica, sans-serif">Device List</text>
+<rect x="107" y="492" width="283" height="28" fill="#ffffff" stroke="#0f6ea6" stroke-width="1.4" rx="3"/>
+<text x="115" y="511.0" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">WILD device</text>
+<text x="376" y="511.0" font-size="12" fill="#50687a" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">v</text>
+<rect x="115" y="544" width="141" height="28" fill="#e6f4fb" stroke="#0f6ea6" stroke-width="1.4" rx="4"/>
+<text x="185.5" y="563.0" font-size="13" fill="#0f6ea6" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Rescan</text>
+<rect x="115" y="576" width="141" height="28" fill="#e6f4fb" stroke="#0f6ea6" stroke-width="1.4" rx="4"/>
+<text x="185.5" y="595.0" font-size="13" fill="#0f6ea6" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Connect</text>
+<rect x="261" y="544" width="122" height="28" fill="#e6f4fb" stroke="#0f6ea6" stroke-width="1.4" rx="4"/>
+<text x="322.0" y="563.0" font-size="13" fill="#0f6ea6" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Recording Start</text>
+<rect x="261" y="576" width="122" height="28" fill="#ffffff" stroke="#bfd1dd" stroke-width="1.4" rx="4"/>
+<text x="322.0" y="595.0" font-size="13" fill="#0c1720" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Recording Stop</text>
+<rect x="388" y="544" width="122" height="28" fill="#e7f5ee" stroke="#2f8b57" stroke-width="1.4" rx="4"/>
+<text x="449.0" y="563.0" font-size="13" fill="#2f8b57" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Preview On</text>
+<rect x="389" y="576" width="122" height="28" fill="#e7f5ee" stroke="#2f8b57" stroke-width="1.4" rx="4"/>
+<text x="450.0" y="595.0" font-size="13" fill="#2f8b57" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Preview Off</text>
+<rect x="187" y="608" width="110" height="28" fill="#f0f3f5" stroke="#c8d3db" stroke-width="1.4" rx="4"/>
+<text x="242.0" y="627.0" font-size="13" fill="#6e7c87" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Read Params</text>
+<rect x="187" y="639" width="110" height="28" fill="#f0f3f5" stroke="#c8d3db" stroke-width="1.4" rx="4"/>
+<text x="242.0" y="658.0" font-size="13" fill="#6e7c87" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Upload Params</text>
+<rect x="303" y="608" width="93" height="58" fill="#f0f3f5" stroke="#c8d3db" stroke-width="1.4" rx="4"/>
+<text x="349.5" y="642.0" font-size="13" fill="#6e7c87" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Camera</text>
+<rect x="402" y="608" width="108" height="58" fill="#f0f3f5" stroke="#c8d3db" stroke-width="1.4" rx="4"/>
+<text x="456.0" y="642.0" font-size="13" fill="#6e7c87" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Records</text>
+<rect x="746" y="494" width="92" height="28" fill="#f0f3f5" stroke="#c8d3db" stroke-width="1.4" rx="4"/>
+<text x="792.0" y="513.0" font-size="13" fill="#6e7c87" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Closed-loop</text>
+<rect x="857" y="494" width="88" height="45" fill="#f0f3f5" stroke="#c8d3db" stroke-width="1.4" rx="4"/>
+<text x="901.0" y="521.5" font-size="13" fill="#6e7c87" font-weight="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Channel selection</text>
+<text x="546" y="508" font-size="12" fill="#0c1720" font-family="Arial, Helvetica, sans-serif">Display Channel</text>
+<rect x="671" y="492" width="69" height="25" fill="#ffffff" stroke="#bfd1dd" stroke-width="1.4" rx="3"/>
+<text x="679" y="509.5" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">1</text>
+<text x="726" y="509.5" font-size="12" fill="#50687a" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">v</text>
+<text x="546" y="533" font-size="12" fill="#0c1720" font-family="Arial, Helvetica, sans-serif">Display Auxiliary</text>
+<rect x="671" y="517" width="167" height="25" fill="#ffffff" stroke="#bfd1dd" stroke-width="1.4" rx="3"/>
+<text x="679" y="534.5" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Digital Signal</text>
+<text x="824" y="534.5" font-size="12" fill="#50687a" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">v</text>
+<rect x="704" y="550" width="13" height="13" fill="#ffffff" stroke="#bfd1dd" stroke-width="1" rx="2"/>
+<line x1="707" y1="556" x2="710" y2="560" stroke="#0f6ea6" stroke-width="2"/>
+<line x1="710" y1="560" x2="716" y2="552" stroke="#0f6ea6" stroke-width="2"/>
+<text x="722" y="561" font-size="12" fill="#0c1720" font-family="Arial, Helvetica, sans-serif">Remove DC for display</text>
+<text x="970" y="486" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Display time</text>
+<rect x="970" y="506" width="80" height="29" fill="#ffffff" stroke="#bfd1dd" stroke-width="1.4" rx="3"/>
+<text x="978" y="525.5" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">2s</text>
+<text x="1036" y="525.5" font-size="12" fill="#50687a" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">v</text>
+<text x="1055" y="486" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Display gain</text>
+<rect x="1055" y="506" width="68" height="29" fill="#ffffff" stroke="#bfd1dd" stroke-width="1.4" rx="3"/>
+<text x="1063" y="525.5" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">500uV</text>
+<text x="1109" y="525.5" font-size="12" fill="#50687a" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">v</text>
+<text x="640" y="616" font-size="13" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Sync / status / TX-RX messages</text>
+<rect x="535" y="582" width="570" height="76" fill="#fff7dd" stroke="#b9831d" stroke-width="1.6" rx="7"/>
+<text x="547" y="605" font-size="15" fill="#b9831d" font-weight="700" font-family="Arial, Helvetica, sans-serif">Status first</text>
+<text x="547" y="627" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Confirm connection and sync before starting local logging</text>
+<rect x="28" y="648" width="266" height="42" fill="#eef8fd" stroke="#0f6ea6" stroke-width="1.6" rx="7"/>
+<text x="40" y="671" font-size="15" fill="#0f6ea6" font-weight="700" font-family="Arial, Helvetica, sans-serif">1. Discover</text>
+<text x="40" y="693" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Rescan, select device, then Connect</text>
+<rect x="315" y="648" width="250" height="42" fill="#eef8fd" stroke="#0f6ea6" stroke-width="1.6" rx="7"/>
+<text x="327" y="671" font-size="15" fill="#0f6ea6" font-weight="700" font-family="Arial, Helvetica, sans-serif">2. Record locally</text>
+<text x="327" y="693" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Start and stop microSD logging</text>
+<rect x="585" y="648" width="245" height="42" fill="#e7f5ee" stroke="#2f8b57" stroke-width="1.6" rx="7"/>
+<text x="597" y="671" font-size="15" fill="#2f8b57" font-weight="700" font-family="Arial, Helvetica, sans-serif">3. Preview only</text>
+<text x="597" y="693" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Optional BLE monitoring path</text>
+<rect x="850" y="648" width="260" height="42" fill="#fff7dd" stroke="#b9831d" stroke-width="1.6" rx="7"/>
+<text x="862" y="671" font-size="15" fill="#b9831d" font-weight="700" font-family="Arial, Helvetica, sans-serif">4. Optional panels</text>
+<text x="862" y="693" font-size="12" fill="#50687a" font-family="Arial, Helvetica, sans-serif">Use after the dry-run path works</text>
+</svg>

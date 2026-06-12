@@ -21,6 +21,8 @@ WILD records compact local streams on the device microSD card. During the curren
 
 The exported folder is therefore the decoded public data interface. Raw device storage blocks are not the expected analysis input; downstream MATLAB and Python tools operate on the downloaded files and generate derived outputs such as `info.rhd`, `time.dat`, event files, media files, IMU outputs, and spike-sorting inputs.
 
+![Main WILD_console Form1 offline export control map](../images/WILD_console_offline_export_map.svg){ .wild-readable-figure }
+
 ## Time Synchronization
 
 WILD keeps high-bandwidth recordings local while WILD_console provides PC-device coordination over BLE. At connection and recording setup, the console synchronizes device state with the PC session and records timing context with the exported dataset.
@@ -28,6 +30,14 @@ WILD keeps high-bandwidth recordings local while WILD_console provides PC-device
 The primary sample timeline is reconstructed from the device sampling configuration and sample count. `time.dat` stores the sample-index timeline used by Intan-style workflows, while the WILD parameter binary preserves device-side recording time, hardware version, release image identity, sampling configuration, and DSP settings. External sync lines and digital inputs in `analogin.dat` or generated event files provide the experiment-level alignment path for multi-device sessions and behavioral equipment.
 
 PC-device time synchronization is useful for session organization, export metadata, and cross-device coordination. High-precision alignment relies on hardware sync or digital event channels retained alongside the PC/device timing metadata.
+
+## Multi-Device and Behavior Alignment
+
+For multi-logger sessions, keep the raw export folder for each device and store merge or sync-estimation outputs alongside the derived files. Useful validation checks include matched `amplifier.dat` duration and file size, stable estimated sample offsets, continuous external TTL or digital events, and no unexpected gaps in camera frames.
+
+Behavior datasets should state whether video, UWB, IMU, and ephys streams are expressed on corrected timestamps. Camera calibration, coordinate transforms, identity curation, and delay correction are part of the dataset metadata, especially for outdoor multi-animal work.
+
+When a behavior pipeline produces files such as `behavior_all.mat`, document whether fields are aligned to corrected timestamps such as `timestamps_corrected` and which correction was used. Post-hoc delay estimation or time warping can help evaluate a session, but it should not replace acquisition-side sync validation.
 
 ## Intan-Compatible Layout
 

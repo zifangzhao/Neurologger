@@ -4,7 +4,7 @@ WILD_console includes a real-time display for previewing selected neural and aux
 
 Live view supports selected previews, status checks, and closed-loop monitoring. Full-resolution recordings are written locally to the device microSD card.
 
-![WILD online API and live display](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
+![Main WILD_console Form1 live preview control map](../images/WILD_console_live_preview_map.svg){ .wild-readable-figure }
 
 ## Display Controls
 
