@@ -443,6 +443,54 @@
   font-size: 0.82rem;
 }
 
+.md-typeset .wild-spec-scroll {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.25rem 0 0.65rem;
+  border: 1px solid var(--wild-border);
+  border-radius: 8px;
+  background: var(--wild-panel);
+  overflow-x: auto;
+  box-shadow: var(--wild-shadow);
+}
+
+.md-typeset .wild-spec-table {
+  min-width: 58rem;
+  margin: 0;
+  border-collapse: collapse;
+  background: transparent;
+  font-size: 0.74rem;
+}
+
+.md-typeset .wild-spec-table th,
+.md-typeset .wild-spec-table td {
+  padding: 0.52rem 0.62rem;
+  border: 0;
+  border-bottom: 1px solid var(--wild-border);
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.md-typeset .wild-spec-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: var(--wild-ink);
+  background: var(--wild-panel-strong);
+  font-weight: 700;
+}
+
+.md-typeset .wild-spec-table td {
+  color: var(--wild-muted);
+}
+
+.md-typeset .wild-spec-table td:nth-child(5),
+.md-typeset .wild-spec-table td:nth-child(9),
+.md-typeset .wild-spec-table td:nth-child(10) {
+  white-space: normal;
+  min-width: 8rem;
+}
+
 .md-typeset .wild-kicker {
   color: var(--wild-accent-strong);
   font-size: 0.76rem;

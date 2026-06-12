@@ -4,6 +4,10 @@ WILD_console is the main operator interface for BLE connection, synchronization,
 
 WILD is a local-storage neurologger: high-bandwidth neural and multimodal data are written to the microSD card on the device. BLE supports setup, timing calibration, status messages, command delivery, and selected preview signals.
 
+The current public workflow uses WILD_console on Windows for BLE control. An iOS-based WILD controller app is in development for device discovery, connection, synchronization support, status checks, and low-bandwidth control. The iOS workflow is expected to provide more consistent BLE performance than typical PC BLE adapters, while full-resolution recordings will still be recovered from the device microSD card.
+
+The WILD device does not need continuous full-bandwidth wireless streaming to preserve the recording. Keep BLE connected when the session needs online preview, parameter changes, or live commands; otherwise, use BLE for setup and timing coordination, then recover the full dataset from the microSD card.
+
 ## First-Pass Button Path
 
 For a basic dry run, only a small part of WILD_console is needed. The closed-loop, camera, stimulation, GPIO, and advanced parameter panels can stay unchanged until the device is already connecting, synchronizing, recording, and exporting reliably.
@@ -56,7 +60,7 @@ The online and live figures below are runtime screenshots from WILD_console duri
 1. Launch `WILD_console.exe`.
 2. Click <span class="wild-button-label">Rescan</span> if the device is not listed.
 3. Select the WILD device from <span class="wild-button-label">Device List</span>.
-4. Click <span class="wild-button-label primary">Connect</span> and wait for synchronization.
+4. Click <span class="wild-button-label primary">Connect</span> and wait for device-state and synchronization updates.
 5. Confirm the TX/RX indicators update. If BLE connects but synchronization does not start, check the microSD card and timing setup first.
 
 ## Record
@@ -75,15 +79,13 @@ Before a field or multi-animal session, run a short dry run with every WILD devi
 2. Start and stop a short local recording on each device.
 3. Export the SD card immediately and confirm expected duration, file size, and representative channels.
 4. Use the release image specified for the experiment and hardware revision.
-5. For multi-device sessions, repeat the dry run with the planned master/follower arrangement and any camera or TTL sync source attached.
+5. For multi-device sessions, repeat the dry run with the planned start order, external I/O wiring, and any camera or TTL sync source attached.
 
 A connected or synchronized GUI state is not, by itself, proof that data were written for the full intended duration. Treat unexpectedly short files, stalled file-size indicators, unstable offsets, frame drops, or missing channels as blockers before animal recordings.
 
 ## Live Display
 
-The real-time view supports selected neural previews, auxiliary signals, IMU and DSP states, stimulation triggers, and threshold overlays.
-
-![WILD_console runtime screenshot with live preview and camera windows](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
+The real-time view supports selected neural previews, auxiliary signals, IMU and DSP states, stimulation triggers, and threshold overlays. See [Live Visualization](../software/live-visualization.md) for the runtime preview screenshot and display controls.
 
 Disable preview to save power and BLE bandwidth when live monitoring is not needed. Recover full-resolution recording data from the microSD card after the session.
 

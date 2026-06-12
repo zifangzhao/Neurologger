@@ -1,0 +1,48 @@
+; Local experiment INF for binding the WILD USB FS Bridge to WinUSB with a stable
+; user-mode interface GUID. This package still uses the inbox winusb.sys driver.
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = USBDevice
+ClassGuid   = {88BAE032-5A81-49f0-BC3D-A4FF138216D6}
+Provider    = %ProviderName%
+DriverVer   = 06/12/2026,1.0.0.0
+
+[Manufacturer]
+%ProviderName% = Devices,NTamd64
+
+[Devices.NTamd64]
+%DeviceName% = USB_Install, USB\VID_0483&PID_572A
+
+[USB_Install]
+Include = winusb.inf
+Needs   = WINUSB.NT
+AddReg  = SetFriendlyName
+
+[USB_Install.HW]
+AddReg = AddDeviceInterfaceGuid, SetInterfaceFriendlyName
+
+[USB_Install.Services]
+Include = winusb.inf
+Needs   = WINUSB.NT.Services
+
+[USB_Install.Wdf]
+KmdfService = WINUSB, WinUsb_Install
+
+[WinUsb_Install]
+KmdfLibraryVersion = 1.9
+
+[AddDeviceInterfaceGuid]
+HKR,,DeviceInterfaceGUIDs,0x10000,%DeviceInterfaceGuid%
+
+[SetFriendlyName]
+HKR,,FriendlyName,0x00000000,"%DeviceName%"
+
+[SetInterfaceFriendlyName]
+HKR,,FriendlyName,0x00000000,"%InterfaceName%"
+
+[Strings]
+ProviderName = "Neurologger Experiment"
+DeviceName = "WILD USB FS Bridge"
+InterfaceName = "WILD WinUSB Stream"
+DeviceInterfaceGuid = "{6C303587-B774-4A8B-8AFF-20557620207A}"

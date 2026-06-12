@@ -27,9 +27,11 @@ The exported folder is therefore the decoded public data interface. Raw device s
 
 The WILD device keeps high-bandwidth recordings local while WILD_console provides PC-device coordination over BLE. At connection and recording setup, the console synchronizes device state with the PC session and records timing context with the exported dataset.
 
-The primary sample timeline is reconstructed from the device sampling configuration and sample count. `time.dat` stores the sample-index timeline used by Intan-style workflows, while the WILD parameter binary preserves device-side recording time, hardware version, release image identity, sampling configuration, and DSP settings. External sync lines and digital inputs in `analogin.dat` or generated event files provide the experiment-level alignment path for multi-device sessions and behavioral equipment.
+Timing metadata should be interpreted as a layered system: device sample counts provide the primary sample timeline, PC-device timing coordination supports session-level alignment, and external I/O or digital events provide the most direct alignment path for external cameras, behavior systems, stimulation hardware, and multi-device sessions.
 
-PC-device time synchronization is useful for session organization, export metadata, and cross-device coordination. High-precision alignment relies on hardware sync or digital event channels retained alongside the PC/device timing metadata.
+`time.dat` stores the sample-index timeline used by Intan-style workflows, while the WILD parameter binary preserves device-side recording time, hardware version, release image identity, sampling configuration, and DSP settings. External sync lines and digital inputs in `analogin.dat` or generated event files should be retained with the export whenever the experiment depends on cross-device or behavior alignment.
+
+PC-device time synchronization is useful for session organization, export metadata, and cross-device coordination. It should not be treated as a substitute for hardware sync or digital event channels when the analysis requires high-precision alignment.
 
 ## Multi-Device and Behavior Alignment
 

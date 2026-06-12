@@ -4,3 +4,7 @@ discussion/
 .codex-*.log
 .codex-*.png
 .codex-*.py
+Code/WildWinUsbProbe/bin/
+Code/WildWinUsbProbe/obj/
+Code/WildWinUsbProbe/*.log
+Code/wild_flash_*.bin

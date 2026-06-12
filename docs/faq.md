@@ -8,6 +8,10 @@ WILD is designed for wireless and naturalistic experiments where tethered acquis
 
 No. WILD is primarily a local-storage neurologger. High-bandwidth neural and multimodal data are recorded to the device microSD card. BLE is used for discovery, configuration, synchronization support, status, selected low-bandwidth preview, and control commands.
 
+## Will WILD have an iOS controller?
+
+An iOS-based WILD controller app is in development for device discovery, BLE connection, synchronization support, status checks, and low-bandwidth commands. It is expected to provide more consistent wireless-control performance than typical PC BLE adapters, but full-resolution recordings will still be stored locally on the device microSD card.
+
 ## What is the current recording scale?
 
 The current open-source workflow is the 64-channel WILD system. Neuropixels-compatible and active-SPI-probe variants are higher-performance research targets and are separate from the current public release.
