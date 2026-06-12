@@ -14,7 +14,7 @@ The current open-source workflow is the 64-channel WILD system. Neuropixels-comp
 
 ## How do I install the PC software?
 
-Download the latest installer from [Software](https://github.com/zifangzhao/Neurologger/tree/main/Software), then follow the acquisition guide.
+Download the latest installer from the [latest GitHub release](https://github.com/zifangzhao/Neurologger/releases/latest), then follow the acquisition guide.
 
 ## What should I check if BLE connects but recording does not start?
 

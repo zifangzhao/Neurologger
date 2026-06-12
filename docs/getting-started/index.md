@@ -30,7 +30,7 @@ WILD setup has three practical stages: prepare the hardware, record data, and ru
 | Asset | Location |
 | --- | --- |
 | Firmware releases | [Firmware](https://github.com/zifangzhao/Neurologger/tree/main/Firmware) |
-| WILD_console installers | [Software](https://github.com/zifangzhao/Neurologger/tree/main/Software) |
+| WILD_console installers | [Latest GitHub release](https://github.com/zifangzhao/Neurologger/releases/latest) |
 | PCB fabrication files | [PCB](https://github.com/zifangzhao/Neurologger/tree/main/PCB) |
 | 3D-print files | [3Dprint](https://github.com/zifangzhao/Neurologger/tree/main/3Dprint) |
 | MATLAB and Python analysis scripts | [Code](https://github.com/zifangzhao/Neurologger/tree/main/Code) |

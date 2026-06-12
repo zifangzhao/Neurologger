@@ -25,7 +25,7 @@ WILD software covers device control, synchronization, live preview, SD-card expo
 
 ## Install
 
-Download the latest WILD_console installer from [Software](https://github.com/zifangzhao/Neurologger/tree/main/Software). Public documentation uses the WILD name even when internal source folders use older development names.
+Download the latest WILD_console installer from the [latest GitHub release](https://github.com/zifangzhao/Neurologger/releases/latest). This stable release URL redirects to the newest published WILD release, so the documentation does not need to be edited for each version. Public documentation uses the WILD name even when internal source folders use older development names.
 
 ## Requirements
 
