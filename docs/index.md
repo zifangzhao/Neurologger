@@ -49,7 +49,7 @@ hide:
 
 <section class="wild-section">
   <h2>Key Features</h2>
-  <p>WILD is organized around field-ready neural data collection with a path from hardware assembly to analysis.</p>
+  <p>Start with the capabilities most relevant to operating WILD in an experiment.</p>
   <div class="wild-grid">
     <div class="wild-card">
       <h3>Local Neural Logging</h3>
@@ -76,7 +76,7 @@ hide:
 
 <section class="wild-section">
   <h2>System Overview</h2>
-  <p>The documentation follows the same path as an experiment: assemble the device, record data locally, synchronize sessions, and analyze exported files.</p>
+  <p>A typical session moves from the animal-mounted device to local storage, synchronization, and offline analysis.</p>
   <div class="wild-system-panels">
     <div class="wild-flow wild-flow-vertical" aria-label="WILD system overview">
       <div>Animal</div>
@@ -117,7 +117,7 @@ hide:
     </div>
     <div class="wild-card">
       <h3>Open hardware iteration</h3>
-      <p>PCB, mechanical, release-image, software, and analysis assets are kept in the public repository.</p>
+      <p>Use the repository to find hardware files, validated release assets, WILD_console installers, and analysis scripts.</p>
     </div>
   </div>
 </section>

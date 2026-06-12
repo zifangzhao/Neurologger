@@ -1,6 +1,6 @@
 # Analysis
 
-The analysis documentation helps move WILD data into established neuroscience workflows without requiring users to reverse-engineer the export format.
+Use these pages to convert WILD exports into analysis-ready files, preserve timing metadata, and prepare datasets for MATLAB, Python, and spike-sorting workflows.
 
 ## Entry Points
 

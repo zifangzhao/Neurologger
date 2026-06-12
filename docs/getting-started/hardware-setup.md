@@ -22,7 +22,7 @@ Format the card from WILD_console before recording. The microSD card affects bot
 
 ![microSD power comparison](../images/WIrelessEphys_Github_10_SDcard_power.jpg){ .wild-readable-figure }
 
-The battery and SD guidance should be treated as part of the experimental protocol, not as optional accessory setup.
+Treat battery and SD guidance as part of the experimental protocol, not as optional accessory setup.
 
 ![Battery examples](../images/WIrelessEphys_Github_9_batteries.jpg){ .wild-readable-figure }
 

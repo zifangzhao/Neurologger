@@ -1,6 +1,6 @@
 # Python
 
-Python scripts in the repository focus on video decoding and utility workflows.
+Use these Python scripts for camera decoding, audio handling, and validation utilities after SD-card export.
 
 ## Scripts
 
@@ -11,9 +11,9 @@ Python scripts in the repository focus on video decoding and utility workflows.
 | [`WILD_VideoDecodewAudio_folder.py`](https://github.com/zifangzhao/Neurologger/blob/main/Code/WILD_VideoDecodewAudio_folder.py) | Batch folder processing. |
 | [`WILD_GPIO_Logger.py`](https://github.com/zifangzhao/Neurologger/blob/main/Code/WILD_GPIO_Logger.py) | GPIO logging utility. |
 
-## Suggested Additions
+## Typical Use
 
-- A minimal Python package for reading WILD folders.
-- Example notebooks for loading neural, IMU, camera, and USV data.
-- SpikeInterface loader examples.
-- Validation data with expected output checksums.
+- Decode camera or audio files after exporting a recording folder.
+- Batch-process multiple recording folders with the folder variants.
+- Log GPIO or serial events during synchronization validation.
+- Keep generated media and logs separate from the raw SD export.

@@ -1,6 +1,6 @@
 # Software
 
-WILD software covers device control, synchronization, live preview, SD-card export, and post-processing entry points.
+Use this section to install WILD_console, run acquisition workflows, export SD-card recordings, and process data for analysis.
 
 ## Software Components
 
@@ -11,11 +11,11 @@ WILD software covers device control, synchronization, live preview, SD-card expo
   </div>
   <div class="wild-card">
     <h3>Artificial Intelligence</h3>
-    <p>Curated embedded AI models with careful RAM, timing, and release integration review; generic model support is under development.</p>
+    <p>Curated embedded models for validated closed-loop releases, with generic model loading not yet part of the stable workflow.</p>
   </div>
   <div class="wild-card">
     <h3>API and CLI operations</h3>
-    <p>Current tool operations cover data export, batch post-processing, video/audio decoding, GPIO logging, and validation utilities.</p>
+    <p>Use documented operations for data export, batch post-processing, video/audio decoding, GPIO logging, and validation utilities.</p>
   </div>
   <div class="wild-card">
     <h3>Analysis scripts</h3>
@@ -25,7 +25,7 @@ WILD software covers device control, synchronization, live preview, SD-card expo
 
 ## Install
 
-Download the latest WILD_console installer from the [latest GitHub release](https://github.com/zifangzhao/Neurologger/releases/latest). This stable release URL redirects to the newest published WILD release, so the documentation does not need to be edited for each version. Public documentation uses the WILD name even when internal source folders use older development names.
+Download WILD_console from the [latest GitHub release](https://github.com/zifangzhao/Neurologger/releases/latest). The link always opens the newest published WILD release.
 
 ## Requirements
 

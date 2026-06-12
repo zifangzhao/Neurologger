@@ -1,6 +1,6 @@
 # PCB
 
-The repository contains fabrication and assembly packages for the datalogger, opto module, and camera unit.
+Use these board packages when ordering, assembling, or inspecting WILD hardware.
 
 ## Fabrication Files
 
@@ -17,9 +17,9 @@ The repository contains fabrication and assembly packages for the datalogger, op
 - Inspect the microSD socket, battery connector, BLE UART pins, sensor connectors, and stimulation output path after assembly.
 - Keep manufacturing revisions tied to compatible release images.
 
-## Recommended Public Additions
+## Assembly Checks
 
-- Board render images for top and bottom layers.
-- A short bring-up checklist after assembly.
-- Known-good manufacturer settings.
-- Revision history table mapping PCB revisions to release-image compatibility.
+- Confirm top and bottom orientation against the board files.
+- Inspect connectors, solder joints, and the microSD socket before power-up.
+- Keep the PCB revision with the experiment metadata.
+- Match each board revision to a compatible release image.

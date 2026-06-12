@@ -25,7 +25,7 @@ The real-time view supports selected neural previews, auxiliary signals, IMU and
 
 ![WILD live visualization](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
 
-Preview can be disabled to save power and BLE bandwidth. Full-resolution recording data should be recovered from the microSD card after the session.
+Disable preview to save power and BLE bandwidth when live monitoring is not needed. Recover full-resolution recording data from the microSD card after the session.
 
 ## Download
 

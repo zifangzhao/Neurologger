@@ -1,6 +1,6 @@
 # Getting Started
 
-WILD setup has three practical stages: prepare the hardware, record data, and run post-processing.
+Start here for the shortest path from a prepared WILD device to exported, analysis-ready data.
 
 <div class="wild-grid two">
   <div class="wild-card">
@@ -35,4 +35,4 @@ WILD setup has three practical stages: prepare the hardware, record data, and ru
 | MATLAB and Python analysis scripts | [Code](https://github.com/zifangzhao/Neurologger/tree/main/Code) |
 
 !!! tip "Recommended first path"
-    If this is your first device, work through Hardware Setup, Data Acquisition, and Data Analysis in order. Most acquisition failures are easier to diagnose when the SD card, battery, release image, and boot state are known.
+    For a first device, work through Hardware Setup, Data Acquisition, and Data Analysis in order. Confirm the SD card, battery, release image, and boot state before troubleshooting acquisition.

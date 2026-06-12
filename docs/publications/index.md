@@ -1,6 +1,6 @@
 # Publications
 
-This page provides citation information for the WILD platform and guidance for reporting the exact hardware, release image, and software versions used in a study.
+Use this page to cite WILD and report the exact hardware, release image, software version, and analysis scripts used in a study.
 
 ## Platform Manuscript
 

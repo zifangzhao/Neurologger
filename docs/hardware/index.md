@@ -1,27 +1,27 @@
 # Hardware
 
-WILD hardware documentation should let a new lab understand the device, manufacture boards, assemble mechanical parts, choose safe power options, and connect each hardware revision to a validated release image.
+Use this section to identify WILD hardware files, assembly checks, power limits, and release-image compatibility before building or operating a device.
 
 <div class="wild-grid two">
   <div class="wild-card">
     <h3>Device Overview</h3>
-    <p>System-level description of the head-mounted logger, sensors, storage, wireless control, and closed-loop outputs.</p>
+    <p>Check the core device specifications, supported modalities, storage path, wireless control, and closed-loop outputs.</p>
   </div>
   <div class="wild-card">
     <h3>PCB</h3>
-    <p>Board files, Gerbers, assembly files, fabrication notes, and inspection checks.</p>
+    <p>Find board packages, fabrication files, assembly files, and inspection points before ordering or checking boards.</p>
   </div>
   <div class="wild-card">
     <h3>Mechanical</h3>
-    <p>3D-print files, baseplates, camera mounts, and enclosure considerations.</p>
+    <p>Locate printable parts, baseplates, camera mounts, and orientation notes for physical assembly.</p>
   </div>
   <div class="wild-card">
     <h3>Power</h3>
-    <p>Battery selection, microSD power draw, boot current, and long-duration recording constraints.</p>
+    <p>Select batteries and microSD cards with enough margin for boot, recording, preview, stimulation, and camera use.</p>
   </div>
   <div class="wild-card">
     <h3>Release Images</h3>
-    <p>Ready-to-use device images, hardware compatibility, and release-version discipline.</p>
+    <p>Match each hardware revision to the validated device image used for the experiment.</p>
   </div>
 </div>
 
@@ -38,4 +38,4 @@ WILD hardware documentation should let a new lab understand the device, manufact
 
 ## Visual Asset Policy
 
-Hardware visuals on the public site should be traceable to real WILD material: device photographs, CAD or EDA exports, microscope images, measured drawings, screenshots from project tools, or hand-authored diagrams derived from measured hardware. AI-generated device photographs or device-like renders should not be used for WILD hardware.
+Use real WILD material for hardware visuals: device photographs, CAD or EDA exports, microscope images, measured drawings, screenshots from project tools, or hand-authored diagrams derived from measured hardware. Do not use AI-generated device photographs or device-like renders for WILD hardware.

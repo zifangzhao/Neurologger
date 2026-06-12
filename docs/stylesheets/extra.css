@@ -52,9 +52,17 @@
   color: var(--wild-ink);
   max-width: 92rem;
   font-size: clamp(2.35rem, 3.8vw, 4.1rem);
+  font-weight: 700;
   line-height: 1.08;
   letter-spacing: 0;
   text-wrap: balance;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .md-typeset .wild-hero p {
@@ -122,6 +130,7 @@
 .md-typeset .wild-section h2 {
   margin-bottom: 0.45rem;
   color: var(--wild-ink);
+  font-weight: 700;
 }
 
 .md-typeset .wild-section > p {
@@ -150,6 +159,7 @@
   margin: 0 0 0.35rem;
   color: var(--wild-ink);
   font-size: 1rem;
+  font-weight: 700;
   line-height: 1.35;
 }
 
@@ -331,6 +341,7 @@
   margin: 0;
   color: inherit;
   font-size: clamp(1.45rem, 2.2vw, 2.15rem);
+  font-weight: 700;
   line-height: 1.15;
 }
 

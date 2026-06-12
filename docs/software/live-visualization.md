@@ -2,7 +2,7 @@
 
 WILD_console includes a real-time display for previewing selected neural and auxiliary signals during recording.
 
-The live view is a monitoring and control tool. It should not be described as the main recording path for high-channel-count data; full-resolution recordings are written locally to the device microSD card.
+Use live view for selected previews, status checks, and closed-loop monitoring. Full-resolution recordings are written locally to the device microSD card.
 
 ![WILD online API and live display](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
 

@@ -16,18 +16,18 @@ The current open-source workflow is the 64-channel WILD system. Neuropixels-comp
 
 Download the latest installer from the [latest GitHub release](https://github.com/zifangzhao/Neurologger/releases/latest), then follow the acquisition guide.
 
-## What should I check if BLE connects but recording does not start?
+## BLE connects, but recording does not start
 
 Check the microSD card first. The current usage notes call out SD format and compatibility as a common cause when BLE connects but synchronization does not begin.
 
 ## Does WILD support TinyML?
 
-WILD supports online inference of curated, experiment-specific models through validated release images. Runtime generic model loading is documented as under development.
+WILD supports online inference of curated, experiment-specific models through validated release images. Runtime generic model loading is not part of the stable public workflow yet.
 
-## How should I cite WILD?
+## How do I cite WILD?
 
 Use the under-review platform manuscript entry on the [Publications](publications/index.md) page. For reproducibility, include the WILD hardware revision, release image, WILD_console version, and analysis-script version used in your methods.
 
-## Where should new diagrams live?
+## Where do new diagrams go?
 
 Keep source diagrams editable where possible, and export web-ready images into `docs/images/`. For architecture diagrams, Mermaid in Markdown is preferred when it is readable.
