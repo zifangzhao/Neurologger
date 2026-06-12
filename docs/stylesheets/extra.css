@@ -13,6 +13,7 @@
   --wild-green: #2f8b57;
   --wild-blue: #16699a;
   --wild-shadow: 0 18px 48px rgba(5, 26, 45, 0.14);
+  --wild-text-column: 62rem;
 }
 
 [data-md-color-scheme="slate"] {
@@ -49,8 +50,8 @@
 .md-typeset .wild-hero h1 {
   margin: 0 0 1rem;
   color: var(--wild-ink);
-  max-width: 78rem;
-  font-size: clamp(2.2rem, 4.4vw, 4.8rem);
+  max-width: 92rem;
+  font-size: clamp(2.35rem, 3.8vw, 4.1rem);
   line-height: 1.08;
   letter-spacing: 0;
   text-wrap: balance;
@@ -91,7 +92,7 @@
 
 .md-typeset .wild-hero-media {
   width: 100%;
-  max-width: 86rem;
+  max-width: var(--wild-text-column);
   margin: 0 auto;
   border: 1px solid var(--wild-border);
   border-radius: 18px;
@@ -193,7 +194,7 @@
   grid-template-columns: minmax(10.5rem, 0.32fr) minmax(0, 0.68fr);
   gap: clamp(0.9rem, 2.4vw, 1.6rem);
   align-items: stretch;
-  max-width: 54rem;
+  max-width: var(--wild-text-column);
   margin: 1.35rem auto;
 }
 
@@ -422,7 +423,8 @@
 
 .md-typeset img.wild-readable-figure {
   display: block;
-  width: 100%;
+  width: min(100%, var(--wild-text-column));
+  max-width: 100%;
   height: auto;
   margin: 1.35rem auto;
   border: 1px solid var(--wild-border);
@@ -433,14 +435,7 @@
 
 @media screen and (min-width: 1220px) {
   .md-typeset .wild-hero {
-    width: min(86rem, calc(100vw - 10rem));
-    max-width: none;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .md-typeset img.wild-readable-figure {
-    width: min(72rem, calc(100vw - 24rem));
+    width: min(96rem, calc(100vw - 8rem));
     max-width: none;
     margin-left: 50%;
     transform: translateX(-50%);
