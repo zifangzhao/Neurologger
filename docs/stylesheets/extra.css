@@ -20,15 +20,68 @@
   --md-primary-fg-color: #092b4b;
   --md-primary-fg-color--light: #1c557b;
   --md-primary-fg-color--dark: #061d32;
-  --md-accent-fg-color: #5aaede;
-  --wild-ink: #e8f3fb;
-  --wild-muted: #a8c0cf;
-  --wild-border: rgba(169, 208, 232, 0.16);
-  --wild-panel: #0d1721;
-  --wild-panel-strong: #102337;
-  --wild-accent: #5aaede;
-  --wild-accent-strong: #9bd5f4;
+  --md-accent-fg-color: #7dc7f2;
+  --wild-ink: #f1f8fc;
+  --wild-muted: #c4d6e2;
+  --wild-border: rgba(154, 213, 246, 0.28);
+  --wild-panel: #101b26;
+  --wild-panel-strong: #14283d;
+  --wild-accent: #7dc7f2;
+  --wild-accent-strong: #c6ebff;
   --wild-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+}
+
+[data-md-color-scheme="slate"] .md-typeset {
+  color: var(--wild-ink);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button) {
+  color: #8fd4ff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):hover {
+  color: #c6ebff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .wild-actions .md-button {
+  border-color: rgba(125, 199, 242, 0.78);
+  color: #d9f2ff;
+  background: rgba(125, 199, 242, 0.08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .wild-actions .md-button:hover {
+  border-color: #c6ebff;
+  color: #ffffff;
+  background: rgba(125, 199, 242, 0.16);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .wild-actions .md-button--primary {
+  border-color: #3fa9e2;
+  color: #ffffff;
+  background: #126ca0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .wild-actions .md-button--primary:hover {
+  border-color: #7dc7f2;
+  background: #1b7fb8;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: rgba(241, 248, 252, 0.82);
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:is(:focus, :hover),
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active {
+  color: #8fd4ff;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--passed {
+  color: rgba(241, 248, 252, 0.72);
+}
+
+[data-md-color-scheme="slate"] .md-nav__title {
+  color: rgba(241, 248, 252, 0.7);
 }
 
 .md-typeset .wild-hero {
