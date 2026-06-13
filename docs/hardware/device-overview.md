@@ -33,6 +33,12 @@ flowchart TB
 | External I/O | Sync and control lines connect WILD devices with cameras, behavior systems, stimulation modules, and multi-device sessions. |
 | Bench setup | USB and wired interfaces can support setup and validation workflows when high-bandwidth local monitoring is needed. |
 
+### USB-GPIO Board
+
+![USB-GPIO board with IO0 to IO3 and USB interface labels](../images/WIrelessEphys_Github-12_GPIOBoard.jpg){ .wild-readable-figure }
+
+The USB-GPIO board exposes four external I/O lines and a USB connection for synchronization and validation workflows. Use it when checking camera triggers, behavioral-system events, stimulation-control lines, or multi-device timing before animal recordings.
+
 ## Current Public Scope
 
 - The current open-source WILD device release is the 64-channel local-storage neurologger workflow.

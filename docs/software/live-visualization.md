@@ -6,6 +6,12 @@ Live view supports selected previews, status checks, and closed-loop monitoring.
 
 ![WILD_console runtime screenshot with live preview and camera windows](../images/WIrelessEphys_Github_4_onlineAPI.jpg){ .wild-readable-figure }
 
+## Camera Imaging Profile
+
+![Camera imaging profile at 4 mm, 8 mm, and 12 mm working distances](../images/WIrelessEphys_Github_11_cameraProfile.jpg){ .wild-readable-figure }
+
+Use the camera imaging profile during bench setup to choose the working distance and focus range before mounting the camera module. Confirm the expected target distance with live preview before treating camera data as part of the experiment record.
+
 ## Display Controls
 
 - Select neural preview channels.

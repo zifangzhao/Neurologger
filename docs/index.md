@@ -81,7 +81,6 @@ hide:
     <table class="wild-spec-table">
       <thead>
         <tr>
-          <th>Name</th>
           <th>Power (mW)</th>
           <th>Channels</th>
           <th>Sps</th>
@@ -94,20 +93,11 @@ hide:
         </tr>
       </thead>
       <tbody>
-        <tr><td>WILD</td><td>0.11</td><td>0</td><td>0</td><td>Sleep</td><td>1.48</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>WILD</td><td>24.42</td><td>8</td><td>4 x 10^4</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
-        <tr><td>WILD</td><td>66.28</td><td>64</td><td>2 x 10^5</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>101.45</td><td>64</td><td>6.8 x 10^5</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>152</td><td>64</td><td>1.32 x 10^6</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>194.04</td><td>64</td><td>2.6 x 10^6</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>108.29</td><td>64</td><td>5.2 x 10^5</td><td>Ephys, IMU, audio</td><td>1.48</td><td>-</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>143.01</td><td>64</td><td>1 x 10^6</td><td>Ephys, IMU, audio</td><td>1.48</td><td>-</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>171.56</td><td>64</td><td>1.64 x 10^6</td><td>Ephys, IMU, audio</td><td>1.48</td><td>-</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>208.67</td><td>64</td><td>2.92 x 10^6</td><td>Ephys, IMU, audio</td><td>1.48</td><td>-</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>180.53</td><td>64</td><td>3.08 x 10^6</td><td>Ephys, IMU, audio, video</td><td>1.48</td><td>320 x 320 px, 16 Hz</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>182.94</td><td>64</td><td>3.56 x 10^6</td><td>Ephys, IMU, audio, video</td><td>1.48</td><td>320 x 320 px, 16 Hz</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>204.81</td><td>64</td><td>4.2 x 10^6</td><td>Ephys, IMU, audio, video</td><td>1.48</td><td>320 x 320 px, 16 Hz</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
-        <tr><td>WILD</td><td>245.28</td><td>64</td><td>5.48 x 10^6</td><td>Ephys, IMU, audio, video</td><td>1.48</td><td>320 x 320 px, 16 Hz</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>-</td></tr>
+        <tr><td>0.11</td><td>0</td><td>0</td><td>Sleep</td><td>1.48</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>24.42</td><td>8</td><td>4 x 10^4</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
+        <tr><td>194.04</td><td>64</td><td>2.6 x 10^6</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
+        <tr><td>208.67</td><td>64</td><td>2.92 x 10^6</td><td>Ephys, IMU, audio</td><td>1.48</td><td>-</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
+        <tr><td>245.28</td><td>64</td><td>5.48 x 10^6</td><td>Ephys, IMU, audio, video</td><td>1.48</td><td>320 x 320 px, 16 Hz</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
       </tbody>
     </table>
   </div>
