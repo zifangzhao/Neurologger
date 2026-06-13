@@ -26,7 +26,7 @@ The documentation portal is built with MkDocs Material and is maintained through
 | Path | Purpose |
 | --- | --- |
 | [`docs/`](docs/) | MkDocs documentation source |
-| [Latest GitHub release](https://github.com/ayalab/neurologger/releases/latest) | Prebuilt device release images |
+| [Latest GitHub release](https://github.com/ayalab1/Neurologger/releases/latest) | Prebuilt device release images |
 | [`Software/`](Software/) | WILD_console installers |
 | [`Code/`](Code/) | MATLAB and Python analysis scripts |
 | [`PCB/`](PCB/) | PCB fabrication and assembly files |

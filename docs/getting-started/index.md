@@ -28,11 +28,11 @@ A prepared WILD device moves from hardware checks to acquisition and analysis th
 
 | Asset | Location |
 | --- | --- |
-| Prebuilt device images | [Latest GitHub release](https://github.com/ayalab/neurologger/releases/latest) |
-| WILD_console installers | [Latest GitHub release](https://github.com/ayalab/neurologger/releases/latest) |
-| PCB fabrication files | [PCB](https://github.com/ayalab/neurologger/tree/main/PCB) |
-| 3D-print files | [3Dprint](https://github.com/ayalab/neurologger/tree/main/3Dprint) |
-| MATLAB and Python analysis scripts | [Code](https://github.com/ayalab/neurologger/tree/main/Code) |
+| Prebuilt device images | [Latest GitHub release](https://github.com/ayalab1/Neurologger/releases/latest) |
+| WILD_console installers | [Latest GitHub release](https://github.com/ayalab1/Neurologger/releases/latest) |
+| PCB fabrication files | [PCB](https://github.com/ayalab1/Neurologger/tree/main/PCB) |
+| 3D-print files | [3Dprint](https://github.com/ayalab1/Neurologger/tree/main/3Dprint) |
+| MATLAB and Python analysis scripts | [Code](https://github.com/ayalab1/Neurologger/tree/main/Code) |
 
 !!! tip "Recommended first path"
     The recommended first-device path is Hardware Setup, Data Acquisition, then Data Analysis. The WILD device SD card, battery, release image, and boot state provide the baseline for troubleshooting acquisition.

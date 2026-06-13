@@ -29,7 +29,7 @@ Software documentation covers how to connect to the WILD device, configure recor
 
 ## Install
 
-Download WILD_console from the [latest GitHub release](https://github.com/ayalab/neurologger/releases/latest). The link always opens the newest published WILD release.
+Download WILD_console from the [latest GitHub release](https://github.com/ayalab1/Neurologger/releases/latest). The link always opens the newest published WILD release.
 
 ## Wireless Control
 

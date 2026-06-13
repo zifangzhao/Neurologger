@@ -29,12 +29,12 @@ Hardware documentation covers the WILD device architecture, board fabrication as
 
 | Hardware area | Repository path |
 | --- | --- |
-| Datalogger PCB | [PCB/Datalogger](https://github.com/ayalab/neurologger/tree/main/PCB/Datalogger) |
-| Opto module | [PCB/Optomodule](https://github.com/ayalab/neurologger/tree/main/PCB/Optomodule) |
-| Camera unit | [PCB/CameraUnit](https://github.com/ayalab/neurologger/tree/main/PCB/CameraUnit) |
-| Mechanical parts | [3Dprint](https://github.com/ayalab/neurologger/tree/main/3Dprint) |
-| Battery table | [LipoBattery_selection.csv](https://github.com/ayalab/neurologger/blob/main/docs/LipoBattery_selection.csv) |
-| Prebuilt device images | [Latest GitHub release](https://github.com/ayalab/neurologger/releases/latest) |
+| Datalogger PCB | [PCB/Datalogger](https://github.com/ayalab1/Neurologger/tree/main/PCB/Datalogger) |
+| Opto module | [PCB/Optomodule](https://github.com/ayalab1/Neurologger/tree/main/PCB/Optomodule) |
+| Camera unit | [PCB/CameraUnit](https://github.com/ayalab1/Neurologger/tree/main/PCB/CameraUnit) |
+| Mechanical parts | [3Dprint](https://github.com/ayalab1/Neurologger/tree/main/3Dprint) |
+| Battery table | [LipoBattery_selection.csv](https://github.com/ayalab1/Neurologger/blob/main/docs/LipoBattery_selection.csv) |
+| Prebuilt device images | [Latest GitHub release](https://github.com/ayalab1/Neurologger/releases/latest) |
 
 ## Visual Asset Policy
 

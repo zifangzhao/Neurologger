@@ -1,9 +1,9 @@
 
 site_name: WILD Ephys
 site_description: An ultra-lightweight multimodal neurologger for naturalistic neural and behavioral recording in small animals
-site_url: https://ayalab.github.io/neurologger/
-repo_url: https://github.com/ayalab/neurologger
-repo_name: ayalab/neurologger
+site_url: https://ayalab1.github.io/Neurologger/
+repo_url: https://github.com/ayalab1/Neurologger
+repo_name: ayalab1/Neurologger
 edit_uri: edit/main/docs/
 
 theme:
@@ -75,7 +75,7 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ayalab/neurologger
+      link: https://github.com/ayalab1/Neurologger
       name: WILD on GitHub
 
 nav:

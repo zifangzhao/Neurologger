@@ -12,7 +12,7 @@ hide:
       <a class="md-button md-button--primary" href="getting-started/">Get Started</a>
       <a class="md-button" href="hardware/">Hardware</a>
       <a class="md-button" href="software/">Software</a>
-      <a class="md-button" href="https://github.com/ayalab/neurologger">GitHub</a>
+      <a class="md-button" href="https://github.com/ayalab1/Neurologger">GitHub</a>
     </div>
     <div class="wild-signal-row">
       <span>64-Channel electrophysiology</span>
@@ -198,7 +198,7 @@ hide:
   <div class="wild-grid">
     <div class="wild-card">
       <h3>GitHub</h3>
-      <p><a href="https://github.com/ayalab/neurologger">Browse hardware files, release images, WILD_console installers, and analysis scripts.</a></p>
+      <p><a href="https://github.com/ayalab1/Neurologger">Browse hardware files, release images, WILD_console installers, and analysis scripts.</a></p>
     </div>
     <div class="wild-card">
       <h3>Discussions</h3>

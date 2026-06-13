@@ -6,11 +6,11 @@ Mechanical files are stored in the repository for baseplates, covers, and camera
 
 | Part | Repository path |
 | --- | --- |
-| Top cover | [WILD_TopCover.STL](https://github.com/ayalab/neurologger/blob/main/3Dprint/MouseCase/WILD_TopCover.STL) |
-| Baseplate | [WILD_Baseplate.STL](https://github.com/ayalab/neurologger/blob/main/3Dprint/MouseCase/WILD_Baseplate.STL) |
-| Camera baseplate | [WILD_Baseplate_Camera.STL](https://github.com/ayalab/neurologger/blob/main/3Dprint/MouseCase/WILD_Baseplate_Camera.STL) |
-| Mouse-case CAD source | [Wild_Case.SLDPRT](https://github.com/ayalab/neurologger/blob/main/3Dprint/MouseCase/Wild_Case.SLDPRT) and [WILD_Case.f3d](https://github.com/ayalab/neurologger/blob/main/3Dprint/MouseCase/WILD_Case.f3d) |
-| Cambridge NeuroTech probe assembly | [WILDAssemblyVertical.stp](https://github.com/ayalab/neurologger/blob/main/3Dprint/CambridgeNT_Probe/WILDAssemblyVertical.stp), [WILDAssemblyVertical.f3d](https://github.com/ayalab/neurologger/blob/main/3Dprint/CambridgeNT_Probe/WILDAssemblyVertical.f3d), and printable support parts in `3Dprint/CambridgeNT_Probe/` |
+| Top cover | [WILD_TopCover.STL](https://github.com/ayalab1/Neurologger/blob/main/3Dprint/MouseCase/WILD_TopCover.STL) |
+| Baseplate | [WILD_Baseplate.STL](https://github.com/ayalab1/Neurologger/blob/main/3Dprint/MouseCase/WILD_Baseplate.STL) |
+| Camera baseplate | [WILD_Baseplate_Camera.STL](https://github.com/ayalab1/Neurologger/blob/main/3Dprint/MouseCase/WILD_Baseplate_Camera.STL) |
+| Mouse-case CAD source | [Wild_Case.SLDPRT](https://github.com/ayalab1/Neurologger/blob/main/3Dprint/MouseCase/Wild_Case.SLDPRT) and [WILD_Case.f3d](https://github.com/ayalab1/Neurologger/blob/main/3Dprint/MouseCase/WILD_Case.f3d) |
+| Cambridge NeuroTech probe assembly | [WILDAssemblyVertical.stp](https://github.com/ayalab1/Neurologger/blob/main/3Dprint/CambridgeNT_Probe/WILDAssemblyVertical.stp), [WILDAssemblyVertical.f3d](https://github.com/ayalab1/Neurologger/blob/main/3Dprint/CambridgeNT_Probe/WILDAssemblyVertical.f3d), and printable support parts in `3Dprint/CambridgeNT_Probe/` |
 
 ## Rendered Model Views
 

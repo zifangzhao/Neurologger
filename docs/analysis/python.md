@@ -6,10 +6,10 @@ Python utilities cover camera decoding, audio handling, GPIO logging, and valida
 
 | Script | Purpose |
 | --- | --- |
-| [`WILD_VideoDecodewAudio.py`](https://github.com/ayalab/neurologger/blob/main/Code/WILD_VideoDecodewAudio.py) | Decode camera data with audio handling. |
-| [`WILD_VideoDecodewAudio_v2.py`](https://github.com/ayalab/neurologger/blob/main/Code/WILD_VideoDecodewAudio_v2.py) | Alternative video decode pipeline. |
-| [`WILD_VideoDecodewAudio_folder.py`](https://github.com/ayalab/neurologger/blob/main/Code/WILD_VideoDecodewAudio_folder.py) | Batch folder processing. |
-| [`WILD_GPIO_Logger.py`](https://github.com/ayalab/neurologger/blob/main/Code/WILD_GPIO_Logger.py) | GPIO logging utility. |
+| [`WILD_VideoDecodewAudio.py`](https://github.com/ayalab1/Neurologger/blob/main/Code/WILD_VideoDecodewAudio.py) | Decode camera data with audio handling. |
+| [`WILD_VideoDecodewAudio_v2.py`](https://github.com/ayalab1/Neurologger/blob/main/Code/WILD_VideoDecodewAudio_v2.py) | Alternative video decode pipeline. |
+| [`WILD_VideoDecodewAudio_folder.py`](https://github.com/ayalab1/Neurologger/blob/main/Code/WILD_VideoDecodewAudio_folder.py) | Batch folder processing. |
+| [`WILD_GPIO_Logger.py`](https://github.com/ayalab1/Neurologger/blob/main/Code/WILD_GPIO_Logger.py) | GPIO logging utility. |
 
 ## Typical Use
 

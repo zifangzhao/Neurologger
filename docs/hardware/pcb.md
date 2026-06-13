@@ -6,9 +6,9 @@ Board packages support ordering, assembly, and inspection for WILD hardware revi
 
 | Board | Files |
 | --- | --- |
-| Datalogger | [Gerbers, drill files, assembly files](https://github.com/ayalab/neurologger/tree/main/PCB/Datalogger) |
-| Opto module | [Gerbers, drill files, assembly files](https://github.com/ayalab/neurologger/tree/main/PCB/Optomodule) |
-| Camera unit | [Gerbers, drill files, assembly files](https://github.com/ayalab/neurologger/tree/main/PCB/CameraUnit) |
+| Datalogger | [Gerbers, drill files, assembly files](https://github.com/ayalab1/Neurologger/tree/main/PCB/Datalogger) |
+| Opto module | [Gerbers, drill files, assembly files](https://github.com/ayalab1/Neurologger/tree/main/PCB/Optomodule) |
+| Camera unit | [Gerbers, drill files, assembly files](https://github.com/ayalab1/Neurologger/tree/main/PCB/CameraUnit) |
 
 ## Manufacturing Notes
 

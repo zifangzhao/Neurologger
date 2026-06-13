@@ -18,7 +18,7 @@ The current open-source workflow is the 64-channel WILD system. Neuropixels-comp
 
 ## How do I install the PC software?
 
-The latest installer is available from the [latest GitHub release](https://github.com/ayalab/neurologger/releases/latest), with setup details in the acquisition guide.
+The latest installer is available from the [latest GitHub release](https://github.com/ayalab1/Neurologger/releases/latest), with setup details in the acquisition guide.
 
 ## BLE connects, but recording does not start
 

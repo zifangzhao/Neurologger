@@ -14,7 +14,7 @@ The WILD device should use a battery approved for the specific hardware revision
 
 ![Battery examples](../images/WIrelessEphys_Github_9_batteries.jpg){ .wild-readable-figure }
 
-The [battery selection table](https://github.com/ayalab/neurologger/blob/main/docs/LipoBattery_selection.csv) provides baseline capacity and runtime-planning references.
+The [battery selection table](https://github.com/ayalab1/Neurologger/blob/main/docs/LipoBattery_selection.csv) provides baseline capacity and runtime-planning references.
 
 ## microSD Power
 

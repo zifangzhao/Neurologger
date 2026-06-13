@@ -14,10 +14,10 @@ The repository includes MATLAB and Python scripts for converting WILD recordings
 
 | Task | Script |
 | --- | --- |
-| Header and time correction | [`WILD_PreProcess.m`](https://github.com/ayalab/neurologger/blob/main/Code/WILD_PreProcess.m) |
-| IMU processing | [`WILD_processIMU.m`](https://github.com/ayalab/neurologger/blob/main/Code/WILD_processIMU.m) |
-| Camera decode with audio | [`WILD_VideoDecodewAudio.py`](https://github.com/ayalab/neurologger/blob/main/Code/WILD_VideoDecodewAudio.py) |
-| Intan header generation | [`WILD_genIntanHeader.m`](https://github.com/ayalab/neurologger/blob/main/Code/WILD_genIntanHeader.m) |
+| Header and time correction | [`WILD_PreProcess.m`](https://github.com/ayalab1/Neurologger/blob/main/Code/WILD_PreProcess.m) |
+| IMU processing | [`WILD_processIMU.m`](https://github.com/ayalab1/Neurologger/blob/main/Code/WILD_processIMU.m) |
+| Camera decode with audio | [`WILD_VideoDecodewAudio.py`](https://github.com/ayalab1/Neurologger/blob/main/Code/WILD_VideoDecodewAudio.py) |
+| Intan header generation | [`WILD_genIntanHeader.m`](https://github.com/ayalab1/Neurologger/blob/main/Code/WILD_genIntanHeader.m) |
 
 !!! note
     Keep raw SD exports unchanged. Run conversion scripts into a separate analysis folder so the original recording can be reprocessed if metadata or analysis settings change.

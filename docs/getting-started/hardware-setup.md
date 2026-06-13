@@ -33,6 +33,6 @@ Battery and SD guidance are part of the experimental protocol, not optional acce
 
 Public setup documentation is based on prebuilt WILD release images. The release image is matched to the hardware revision and experimental configuration, with the release tag and image filename kept in dataset metadata.
 
-Release images are distributed through the [latest GitHub release](https://github.com/ayalab/neurologger/releases/latest). Follow the release notes for the specific image used in the experiment.
+Release images are distributed through the [latest GitHub release](https://github.com/ayalab1/Neurologger/releases/latest). Follow the release notes for the specific image used in the experiment.
 
 Treat the released device image as part of the hardware setup record. The WILD device, WILD_console version, SD card, battery, and analysis scripts should all be traceable to the dataset.
