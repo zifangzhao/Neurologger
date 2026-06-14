@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use WILD, please cite the repository and include the exact release tag, release image, hardware revision, and WILD_console version."
+title: "WILD: Wireless, Interactive, Lightweight Datalogger"
+type: software
+authors:
+  - family-names: Zhao
+    given-names: Zifang
+  - family-names: Chang
+    given-names: Hongyu
+  - family-names: Paudel
+    given-names: Praveen
+  - family-names: Park
+    given-names: Jaehyo
+  - family-names: Liu
+    given-names: Can
+  - family-names: Aurelio
+    given-names: Maria Q.
+  - family-names: Oliva
+    given-names: Azahara
+  - family-names: Fernandez-Ruiz
+    given-names: Antonio
+repository-code: "https://github.com/ayalab1/Neurologger"
+url: "https://ayalab1.github.io/Neurologger/"
+license: "See repository"

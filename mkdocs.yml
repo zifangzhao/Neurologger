@@ -97,7 +97,7 @@ nav:
       - Live Visualization: software/live-visualization.md
       - Data Format: software/data-format.md
       - Artificial Intelligence: software/artificial-intelligence.md
-      - API and CLI Operations: software/api-cli.md
+      - Programmatic Workflows: software/api-cli.md
   - Analysis:
       - analysis/index.md
       - Python: analysis/python.md
@@ -105,6 +105,7 @@ nav:
       - Spike Sorting: analysis/spike-sorting.md
   - Examples: examples/index.md
   - Community:
+      - community/index.md
       - Publications: publications/index.md
       - Contributing: contributing.md
       - FAQ: faq.md

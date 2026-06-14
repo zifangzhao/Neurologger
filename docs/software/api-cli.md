@@ -1,10 +1,13 @@
-# API and CLI Operations
+# Programmatic Workflows
 
 WILD_console and the listed scripts form the supported public interface for acquisition, export, post-processing, and validation.
 
 WILD_console handles BLE discovery, synchronization, configuration, selected preview, and SD-card export. Full-resolution recordings are recovered from local storage rather than streamed continuously over BLE.
 
 An iOS-based WILD controller app is in development for wireless device control and is expected to provide more consistent BLE performance than typical PC BLE adapters. The current stable public export and post-processing workflow remains WILD_console plus the documented MATLAB and Python scripts.
+
+!!! warning "No stable SDK yet"
+    The supported public programmable surface is WILD_console plus the documented repository scripts. The project does not currently document a stable general-purpose SDK with a versioned command contract.
 
 ## Current Support
 
@@ -18,7 +21,7 @@ An iOS-based WILD controller app is in development for wireless device control a
 | GPIO logging | Python utility | Log serial/GPIO event data during validation or synchronization tests. |
 | Release and model tracking | Release metadata workflow | Record release image, AI model identity, and tool version for reproducibility. |
 
-## CLI-Style Tool Operations
+## Supported Scripted Operations
 
 The current public API surface is organized around these operations:
 

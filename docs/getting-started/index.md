@@ -36,3 +36,30 @@ A prepared WILD device moves from hardware checks to acquisition and analysis th
 
 !!! tip "Recommended first path"
     The recommended first-device path is Hardware Setup, Data Acquisition, then Data Analysis. The WILD device SD card, battery, release image, and boot state provide the baseline for troubleshooting acquisition.
+
+## First Successful Dry Run
+
+**Goal:** complete a short bench recording and confirm that the public export and analysis path works before changing advanced settings.
+
+**Minimum output folder:**
+
+- `amplifier.dat`
+- `analogin.dat`
+- `time.dat`
+- `info.rhd`
+- `CE_params.bin`
+
+**Optional outputs, depending on mode:**
+
+- `adc.dat` for audio workflows
+- `misc.dat` for camera workflows
+- `device_event.*.evt` files after MATLAB preprocessing
+- `IMU.mat` after IMU processing
+
+**Success criteria:**
+
+1. The WILD device is discovered and connected in WILD_console.
+2. A short recording starts and stops cleanly.
+3. SD-card export completes without missing-core-file errors.
+4. The exported folder contains the expected files for the recording mode used.
+5. MATLAB or Python post-processing runs without requiring manual file repair.

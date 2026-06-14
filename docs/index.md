@@ -28,6 +28,39 @@ hide:
   </figure>
 </section>
 
+<section class="wild-section">
+  <div class="wild-grid two">
+    <div class="wild-card">
+      <h2>Current Public Workflow</h2>
+      <p><strong>Stable public scope:</strong> 64-channel local-storage WILD workflow, WILD_console on Windows, validated release images, and post-processing through documented MATLAB and Python scripts.</p>
+      <p><strong>Not the current public model:</strong> full-bandwidth BLE telemetry or arbitrary runtime AI-model upload.</p>
+    </div>
+    <div class="wild-card">
+      <h2>Release Record</h2>
+      <p>Use the <a href="https://github.com/ayalab1/Neurologger/releases/latest">latest GitHub release</a> and record the exact release tag, release image filename, hardware revision, WILD_console version, SD card, and battery in every experiment note.</p>
+    </div>
+  </div>
+
+  <div class="wild-grid">
+    <div class="wild-card">
+      <h3>Run a first recording</h3>
+      <p><a href="getting-started/hardware-setup/">Hardware Setup</a> -> <a href="getting-started/data-acquisition/">Data Acquisition</a> -> <a href="getting-started/data-analysis/">Data Analysis</a></p>
+    </div>
+    <div class="wild-card">
+      <h3>Build hardware</h3>
+      <p><a href="hardware/pcb/">PCB</a> -> <a href="hardware/mechanical/">Mechanical</a> -> <a href="hardware/power/">Power</a></p>
+    </div>
+    <div class="wild-card">
+      <h3>Analyze data</h3>
+      <p><a href="software/data-format/">Data Format</a> -> <a href="analysis/matlab/">MATLAB</a> -> <a href="analysis/python/">Python</a> -> <a href="analysis/spike-sorting/">Spike Sorting</a></p>
+    </div>
+    <div class="wild-card">
+      <h3>Cite or reproduce a result</h3>
+      <p><a href="publications/">Publications</a> -> release metadata -> reproducibility notes -> analysis script version</p>
+    </div>
+  </div>
+</section>
+
 <section class="wild-zoom-tour" aria-label="WILD device zoom tour">
   <div class="wild-zoom-stage" aria-live="polite">
     <h2 id="wild-zoom-title">Embedded control at the headstage</h2>
@@ -83,7 +116,7 @@ hide:
         <tr>
           <th>Power (mW)</th>
           <th>Channels</th>
-          <th>Sps</th>
+          <th>Aggregate samples/s</th>
           <th>Mode</th>
           <th>Weight (g)</th>
           <th>Video</th>
@@ -94,14 +127,14 @@ hide:
       </thead>
       <tbody>
         <tr><td>0.11</td><td>0</td><td>0</td><td>Sleep</td><td>1.48</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>24.42</td><td>8</td><td>4 x 10^4</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
-        <tr><td>194.04</td><td>64</td><td>2.6 x 10^6</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
-        <tr><td>208.67</td><td>64</td><td>2.92 x 10^6</td><td>Ephys, IMU, audio</td><td>1.48</td><td>-</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
-        <tr><td>245.28</td><td>64</td><td>5.48 x 10^6</td><td>Ephys, IMU, audio, video</td><td>1.48</td><td>320 x 320 px, 16 Hz</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetosensor</td><td>Spectral power, TinyML</td></tr>
+        <tr><td>24.42</td><td>8</td><td>4 x 10^4</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetometer</td><td>Spectral power, TinyML</td></tr>
+        <tr><td>194.04</td><td>64</td><td>2.6 x 10^6</td><td>Ephys, IMU</td><td>1.48</td><td>-</td><td>-</td><td>Accelerometer, gyroscope, magnetometer</td><td>Spectral power, TinyML</td></tr>
+        <tr><td>208.67</td><td>64</td><td>2.92 x 10^6</td><td>Ephys, IMU, audio</td><td>1.48</td><td>-</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetometer</td><td>Spectral power, TinyML</td></tr>
+        <tr><td>245.28</td><td>64</td><td>5.48 x 10^6</td><td>Ephys, IMU, audio, video</td><td>1.48</td><td>320 x 320 px, 16 Hz</td><td>160 kHz</td><td>Accelerometer, gyroscope, magnetometer</td><td>Spectral power, TinyML</td></tr>
       </tbody>
     </table>
   </div>
-  <p class="wild-table-note">Values summarize measured or configured device operating modes. Report the exact hardware revision, release image, battery, SD card, and enabled modules when comparing runtime across experiments.</p>
+  <p class="wild-table-note">Values summarize measured or configured device operating modes. Report the exact hardware revision, release image, battery, SD card, enabled modules, and whether aggregate samples/s is summed across recorded streams when comparing runtime across experiments.</p>
 </section>
 
 <section class="wild-section">
@@ -168,6 +201,7 @@ hide:
       <p>Exported recordings are converted into Intan-style files, IMU and camera outputs, and spike-sorting inputs.</p>
     </div>
   </div>
+  <p class="wild-table-note">Recommended first success target: complete a short bench recording, export the folder, confirm `amplifier.dat`, `analogin.dat`, `time.dat`, `info.rhd`, and `CE_params.bin`, then open the result with the documented MATLAB or Python workflow.</p>
 </section>
 
 <section class="wild-section">
@@ -201,8 +235,8 @@ hide:
       <p><a href="https://github.com/ayalab1/Neurologger">Browse hardware files, release images, WILD_console installers, and analysis scripts.</a></p>
     </div>
     <div class="wild-card">
-      <h3>Discussions</h3>
-      <p>GitHub Discussions host experiment design questions, integration planning, and troubleshooting.</p>
+      <h3>Issues and Pull Requests</h3>
+      <p>Use GitHub issues for reproducible bugs or documentation gaps, and pull requests for tested fixes, examples, and compatibility updates.</p>
     </div>
     <div class="wild-card">
       <h3>Contributing</h3>

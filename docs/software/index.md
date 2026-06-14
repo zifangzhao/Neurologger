@@ -18,7 +18,7 @@ Software documentation covers how to connect to the WILD device, configure recor
     <p>Curated embedded models for validated closed-loop releases, with generic model loading not yet part of the stable workflow.</p>
   </div>
   <div class="wild-card">
-    <h3>API and CLI operations</h3>
+    <h3>Programmatic workflows</h3>
     <p>Documented operations for data export, batch post-processing, video/audio decoding, GPIO logging, and validation utilities.</p>
   </div>
   <div class="wild-card">
@@ -30,6 +30,16 @@ Software documentation covers how to connect to the WILD device, configure recor
 ## Install
 
 Download WILD_console from the [latest GitHub release](https://github.com/ayalab1/Neurologger/releases/latest). The link always opens the newest published WILD release.
+
+## Public Workflow Boundary
+
+The current public software path is:
+
+1. Connect and record with WILD_console.
+2. Export from the device microSD card.
+3. Run documented MATLAB or Python post-processing.
+
+The public documentation does not treat BLE as a continuous high-bandwidth acquisition path, and it does not promise a stable general-purpose SDK yet.
 
 ## Wireless Control
 

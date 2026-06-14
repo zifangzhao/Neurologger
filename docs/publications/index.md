@@ -20,3 +20,16 @@ The WILD platform manuscript is currently under review. Cite the manuscript once
 When citing a specific software or hardware release, include the GitHub repository URL and the exact release image, software version, and hardware revision used.
 
 Repository: [https://github.com/ayalab1/Neurologger](https://github.com/ayalab1/Neurologger)
+
+## How to Cite Before Publication
+
+Until the platform manuscript has a final public citation, cite the repository and the exact release context used in the work:
+
+- Repository URL.
+- Release tag.
+- Release image filename.
+- Hardware revision.
+- WILD_console version.
+- Analysis script version or commit hash, when applicable.
+
+The repository now includes a root `CITATION.cff` file for software-style citation metadata.
